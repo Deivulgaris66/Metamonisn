@@ -1,0 +1,7 @@
+source_type,source_id,source_file,relation,target_type,target_id,target_file,description
+axiom,axiom_indifference_ban,CORE/axioms.yaml,isDefinedBy,article,article_1_foundation,ARTICLES/H_Article_1_Foundation/meta.yaml,"Primary exposition and justification"
+article,article_1_foundation,ARTICLES/H_Article_1_Foundation/meta.yaml,hintsAt,model,model_physics,ONTODYNAMICS/PHYSICS/manifest.yaml,"Suggests application to physics"
+model,model_quantum_mechanics,ONTODYNAMICS/PHYSICS/quantum_mechanics.yaml,uses,axiom,axiom_indifference_ban,CORE/axioms.yaml,"Builds upon the core axiom"
+model,model_quantum_mechanics,ONTODYNAMICS/PHYSICS/quantum_mechanics.yaml,isFoundationFor,model,model_chemical_bonding,ONTODYNAMICS/CHEMISTRY/bonding.yaml,"Chemical bonds emerge from QM principles"
+// TODO: Populate this table as the primary, human-editable map of all relationships in the project.
+// Keep it in sync with the more formal global_relations.jsonld.
