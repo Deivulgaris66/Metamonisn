@@ -1,0 +1,23 @@
+# ARTICLES/H_Article_1_Foundation/meta.yaml
+# Purpose: Machine-readable metadata linking the human article to M-specifications.
+
+publication:
+  title: "Metamonism as the Foundation of All Sciences"
+  h_version_doi: "TODO: https://doi.org/10.xxxx/zenodo.xxxxxx" # PRIMARY LINK TO H-VERSION
+  h_version_url: "TODO: [Alternative URL, e.g., arXiv link]"
+  author: "Andrii Myshko (Metamonist)"
+  release_date: "TODO: 2024-XX-XX" # Date of H-version publication
+  status: "published" # Options: draft, published, revised
+
+# CRITICAL: These links define how the article relates to the M-specification structure.
+specification_relations:
+  - targets: ["../../CORE/axioms.yaml", "../../CORE/definitions.yaml"]
+    relation_type: "defines" # Options: defines, uses, critiques, extends
+    description: "The article introduces and justifies the core axiomatics and basic terminology."
+  - targets: ["../../ONTODYNAMICS/PHYSICS/manifest.yaml"]
+    relation_type: "hints_at"
+    description: "The article outlines possible paths of application to physics."
+
+# Link to discussion (GitHub Issue). To be created later.
+discussion:
+  github_issue_url: "TODO: https://github.com/Deivulgaris66/Metamonisn/issues/X"
