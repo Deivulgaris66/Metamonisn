@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "metamon": "https://github.com/Deivulgaris66/Metamonisn/ontology#",
+    "defines": "metamon:defines",
+    "uses": "metamon:uses",
+    "extends": "metamon:extends",
+    "clarifies": "metamon:clarifies",
+    "isFoundationFor": "metamon:isFoundationFor",
+    "isIsomorphicTo": "metamon:isIsomorphicTo"
+  },
+  "@graph": [
+    {
+      "@id": "metamon:Core_Axiom_Indifference_Ban",
+      "@type": "metamon:Axiom",
+      "rdfs:label": "Indifference Ban Axiom",
+      "rdfs:comment": "Absolute identity (a state without distinctions) is ontologically impossible.",
+      "locatedIn": "CORE/axioms.yaml"
+    },
+    {
+      "@id": "metamon:Article_1_Foundation",
+      "@type": "metamon:HumanArticle",
+      "rdfs:label": "Article 1: Foundation",
+      "defines": ["metamon:Core_Axiom_Indifference_Ban"],
+      "locatedIn": "ARTICLES/H_Article_1_Foundation/meta.yaml"
+    },
+    {
+      "@id": "metamon:Model_Quantum_Mechanics",
+      "@type": "metamon:DynamicModel",
+      "rdfs:label": "Quantum Mechanics Model",
+      "uses": ["metamon:Core_Axiom_Indifference_Ban"],
+      "isFoundationFor": ["metamon:Model_Chemical_Bonding"],
+      "locatedIn": "ONTODYNAMICS/PHYSICS/quantum_mechanics.yaml"
+    }
+    // TODO: Add all other nodes (Concepts, Models, Articles) and relations here as the project grows.
+    // This is a skeletal structure. Every new YAML file should eventually be represented here.
+  ]
+}
