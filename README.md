@@ -13,44 +13,46 @@ This repository implements the **machine-readable (M) channel** of the Metamonis
 *   **`CORE/`** is the **immutable foundation** for everything above.
 
 ## 🏗️ Repository Structure (Hybrid)
+```
 Metamonism/
-├── ARTICLES/ # BRIDGE: Parallel H and M versions
-│ ├── H/ # Human-readable channel
-│ │ └── 01_Foundation/ # Article 1: "Metamonism as Foundation..."
-│ │ ├── README.md # Abstract, DOI link, context
-│ │ └── meta.yaml # Publication metadata
-│ │
-│ └── M/ # Machine-readable channel
-│ └── 01_Foundation/ # M-specification of Article 1
-│ ├── README.md # Structured summary
-│ ├── specification.yaml # Core claims, arguments, links
-│ └── references.yaml # Explicit links to CORE & ONTODYNAMICS
+├── ARTICLES/                    # BRIDGE: Parallel H and M versions
+│   ├── H/                      # Human-readable channel
+│   │   └── 01_Foundation/      # Article 1: "Metamonism as Foundation..."
+│   │       ├── README.md       # Abstract, DOI link, context
+│   │       └── meta.yaml       # Publication metadata
+│   │
+│   └── M/                      # Machine-readable channel
+│       └── 01_Foundation/      # M-specification of Article 1
+│           ├── README.md       # Structured summary
+│           ├── specification.yaml # Core claims, arguments, links
+│           └── references.yaml # Explicit links to CORE & ONTODYNAMICS
 │
-├── ONTODYNAMICS/ # KNOWLEDGE BASE: Thematic disciplinary models
-│ ├── PHYSICS/ # World 1: Physics
-│ │ ├── manifest.yaml
-│ │ ├── quantum_mechanics.yaml
-│ │ └── thermodynamics.yaml
-│ ├── COSMOLOGY/ # World 2: Cosmology
-│ │ ├── manifest.yaml
-│ │ ├── redshift.yaml
-│ │ └── large_scale.yaml
-│ └── CHEMISTRY/ # World 3: Chemistry
-│ ├── manifest.yaml
-│ └── bonding.yaml
+├── ONTODYNAMICS/                # KNOWLEDGE BASE: Thematic disciplinary models
+│   ├── PHYSICS/                 # World 1: Physics
+│   │   ├── manifest.yaml
+│   │   ├── quantum_mechanics.yaml
+│   │   └── thermodynamics.yaml
+│   ├── COSMOLOGY/               # World 2: Cosmology
+│   │   ├── manifest.yaml
+│   │   ├── redshift.yaml
+│   │   └── large_scale.yaml
+│   └── CHEMISTRY/               # World 3: Chemistry
+│       ├── manifest.yaml
+│       └── bonding.yaml
 │
-├── CORE/ # FOUNDATION: Immutable axioms & definitions
-│ ├── axioms.yaml
-│ ├── definitions.yaml
-│ ├── operators.yaml
-│ └── core_v1.0.md
+├── CORE/                        # FOUNDATION: Immutable axioms & definitions
+│   ├── axioms.yaml
+│   ├── definitions.yaml
+│   ├── operators.yaml
+│   └── core_v1.0.md
 │
-├── KNOWLEDGE_GRAPH/ # SEMANTIC NETWORK (Auto-generated)
-│ ├── README.md
-│ ├── global_relations.jsonld
-│ └── cross_reference.csv
+├── KNOWLEDGE_GRAPH/             # SEMANTIC NETWORK (Auto-generated)
+│   ├── README.md
+│   ├── global_relations.jsonld
+│   └── cross_reference.csv
 │
-└── CONTRIBUTING.md # Contribution guidelines
+└── CONTRIBUTING.md              # Contribution guidelines
+```
 
 ## 🔍 For AI & Search Engines
 **Primary entry points for machine parsing:**
