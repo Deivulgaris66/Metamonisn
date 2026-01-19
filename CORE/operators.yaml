@@ -1,0 +1,19 @@
+# CORE/operators.yaml
+# Version: 1.0 (Skeleton)
+# Purpose: Formal description of the basic ontological operators.
+
+# TODO: Formally define the `diff` and `fix` operators, their properties, and interaction.
+operators:
+  diff:
+    symbol: "∇" # Placeholder, to be formalized
+    informal_description: "The fundamental process of continuous differentiation."
+    # TODO: Add formal definition, domain, co-domain, properties (e.g., non-commutative, non-idempotent).
+    notes: "Considered ontologically prior. Generates the potential field of distinctions."
+
+  fix:
+    symbol: "!" # Placeholder, to be formalized
+    informal_description: "The selection and actualization of a discrete state from a continuum."
+    # TODO: Add formal definition, relation to diff (e.g., fix acts upon the output of diff).
+    notes: "Makes a specific distinction actual/observable within Logos. Associated with measurement, event, or 'collapse'."
+
+# TODO: Define any other derived or higher-order operators.
