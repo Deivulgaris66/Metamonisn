@@ -1,0 +1,28 @@
+# ARTICLES/M/01_Foundation/references.yaml
+# Purpose: Explicit links from this M-article to the rest of the M-structure.
+
+meta:
+  title: "Reference Links for Article 1 M-version"
+  generated_for: "01_Foundation"
+
+# Links to CORE elements that this article DEFINES (i.e., first principles).
+defines:
+  - element_id: "axiom_indifference_ban"
+    element_type: "axiom"
+    source_file: "../../CORE/axioms.yaml"
+    relationship: "primary_definition"
+    notes: "This article first formulates and justifies this axiom."
+
+  - element_id: ["monas", "logos"]
+    element_type: "definition"
+    source_file: "../../CORE/definitions.yaml"
+    relationship: "primary_definition"
+    notes: "This article introduces these fundamental terms."
+
+# Links to ONTODYNAMICS models that this article USES or HINTS at.
+uses:
+  - element_id: "model_physics_overview"
+    element_type: "model_section"
+    source_file: "../../ONTODYNAMICS/PHYSICS/manifest.yaml"
+    relationship: "hints_at_application"
+    notes: "The article suggests physics is a primary domain for application."
