@@ -1,0 +1,21 @@
+# ONTODYNAMICS/COSMOLOGY/redshift.yaml
+# Version: 0.1 (Draft)
+# Purpose: Metamonistic model for cosmological redshift.
+
+meta:
+  title: "Redshift as Frequency Dissipation"
+  description: "TODO: An alternative to metric expansion: redshift explained by photon interaction with the ontological background field."
+  core_concepts: ["diff", "fix"]
+  status: "hypothesis"
+
+# TODO: Formalize the model.
+model:
+  premise: "TODO: The speed of light (c) is the maximum rate of actualization (fix). Photons are not particles moving through space, but propagating actualizations."
+  redshift_mechanism: "TODO: Over vast distances, a photon undergoes a gradual 'dissipation' of its frequency due to continuous low-intensity interaction with the diff background, perceived as redshift."
+  contrast_with_standard: "TODO: This model does not require expanding space, dark energy, or a Big Bang singularity. Redshift is a process, not a Doppler effect."
+
+# TODO: List specific, falsifiable predictions that differ from Lambda-CDM.
+predictions:
+  - id: "pred_redshift_1"
+    statement: "TODO: The redshift-distance relation should have a subtle non-linearity or directional dependence not predicted by pure expansion."
+    testability: "TODO: Analysis of large, deep sky surveys (e.g., from JWST or Euclid)."
