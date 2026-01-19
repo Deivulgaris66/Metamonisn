@@ -1,0 +1,22 @@
+# ONTODYNAMICS/COSMOLOGY/manifest.yaml
+# Version: 0.1 (Draft)
+# Purpose: Describes the "Cosmology" section within Ontodynamics.
+
+meta:
+  title: "Cosmology within the Metamonism Framework"
+  description: "TODO: Application of core principles to cosmological models and large-scale structure of the universe."
+  version: "0.1"
+  core_dependency: "CORE/v1.0"
+
+# TODO: List the key models (files) of this section and their brief purpose.
+models:
+  - file: "redshift.yaml"
+    purpose: "TODO: Interpretation of cosmological redshift as frequency dissipation rather than metric expansion."
+  - file: "large_scale.yaml"
+    purpose: "TODO: Model for the formation of large-scale structure (filaments, voids) through ontological dynamics."
+
+# TODO: Specify connections to other sections.
+relations:
+  - target: "../PHYSICS/"
+    type: "foundation_for"
+    description: "TODO: Cosmological models are built upon and must be consistent with physical interpretations (e.g., gravity)."
