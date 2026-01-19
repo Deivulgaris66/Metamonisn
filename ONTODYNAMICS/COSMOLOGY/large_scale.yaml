@@ -1,0 +1,21 @@
+# ONTODYNAMICS/COSMOLOGY/large_scale.yaml
+# Version: 0.1 (Draft)
+# Purpose: Metamonistic model for large-scale cosmic structure.
+
+meta:
+  title: "Formation of Large-Scale Structure"
+  description: "TODO: Explanation of cosmic web (filaments, voids, clusters) through patterns in the fundamental ontological field."
+  core_concepts: ["diff"]
+  status: "hypothesis"
+
+# TODO: Formalize the model.
+model:
+  premise: "TODO: The primordial state is not a singularity, but a dynamic, inhomogeneous field of diff."
+  structure_formation: "TODO: Filaments and voids are not gravitational collapses in an expanding space, but persistent patterns ('attractors' and 'repellers') in the topology of the diff process."
+  role_of_gravity: "TODO: Gravity, interpreted as shielding (see PHYSICS/gravity.yaml), acts as a secondary process that enhances and makes visible these pre-existing ontological structures."
+
+# TODO: List predictions about structure that differ from standard inflationary cosmology.
+predictions:
+  - id: "pred_structure_1"
+    statement: "TODO: The statistical distribution of void sizes and shapes should show signatures of a non-random, topological origin."
+    testability: "TODO: Comparison of void catalogs from simulations with observational data (e.g., SDSS)."
