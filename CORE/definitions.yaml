@@ -1,0 +1,22 @@
+# CORE/definitions.yaml
+# Version: 1.0 (Skeleton)
+# Purpose: Dictionary of the framework's key terms.
+
+# TODO: Provide strict definitions for core terms.
+definitions:
+  monas:
+    term: "Monas"
+    definition: "TODO: Reality as a continuous process of differentiation (diff)."
+    notes: "Not an object, but a process. The primary ontological category."
+  logos:
+    term: "Logos"
+    definition: "TODO: The space of discrete models and fixations (fix) representing Monas."
+    notes: "The domain of theoretical description, science, and language."
+  diff:
+    term: "diff (operator)"
+    definition: "TODO: The fundamental process of generating distinctions."
+    notes: "The primary dynamic of Monas."
+  fix:
+    term: "fix (operator)"
+    definition: "TODO: The actualization and fixation of a discrete state from the continuum of diff."
+    notes: "The moment of determination that gives rise to observable phenomena in Logos."
