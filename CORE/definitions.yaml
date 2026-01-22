@@ -1,14 +1,19 @@
 # CORE/definitions.yaml
-# Version: 1.2
+# Version: 1.3
 # Purpose: Glossary of terms with references to formal specifications
 
 metadata:
-  version: "1.2"
-  last_updated: "2024-03-21"
+  version: "1.3"
+  last_updated: "2026-01-22"
   depends_on:
     - "CORE/axioms.yaml"
     - "CORE/ontology.yaml"
     - "CORE/operators.yaml"
+  
+  major_changes:
+    - "Added КМИ (CMI) definition"
+    - "Added momentum definition with physical correspondence"
+    - "Added dissipation definition with short form (diss)"
 
 definitions:
   - term: "absolute_identity"
@@ -31,19 +36,109 @@ definitions:
     
     notes: "Every actual process must possess distinctions (axiom implication)."
 
+  - term: "КМИ (CMI)"
+    full_name: "Конфликт-Момент-Импульс (Conflict-Moment-Impulse)"
+    
+    definition: |
+      The foundational triadic structure of Metamonism:
+      1. Prohibition (Конфликт): ontological impossibility of absolute identity
+      2. Momentum (Момент-Импульс): conserved necessity of differentiation
+      3. Force: enforcement mechanism (F = dp/dt)
+      
+      This structure generates all physical laws and processes.
+    
+    status: "foundational_structure"
+    
+    english_term: "CMI Principle"
+    alternative: "Prohibition-Momentum-Force triad"
+    
+    reference: "CORE/ontology.yaml#principle_CMI_structure"
+    
+    historical_note: |
+      Original Russian formulation: Конфликт-Момент-Импульс.
+      In English physics, "Momentum" elegantly captures both
+      Момент (moment/instant) and Импульс (impulse/thrust),
+      unifying the temporal and dynamic aspects.
+    
+    notes: |
+      КМИ was the original framework formulation. It establishes
+      Metamonism as a physical ontology, not just philosophical speculation.
+
+  - term: "Momentum"
+    definition: |
+      The conserved necessity of differentiation, manifesting physically as
+      momentum (p = mv). Represents the ontological impossibility of stasis:
+      reality 'cannot stop' without violating the prohibition.
+    
+    ontological_status: "conserved_necessity"
+    
+    physical_manifestation: "p = mv (momentum)"
+    
+    relationship_to_CMI: |
+      Momentum is the "M" and "I" of КМИ:
+      - Момент (Moment): instantiation of process in time
+      - Импульс (Impulse): conserved quantity of motion
+      
+      In English, "momentum" unifies both concepts.
+    
+    reference: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    notes: |
+      Conservation of momentum (physical law) is the physical expression
+      of the ontological prohibition. Just as momentum cannot vanish,
+      the process of differentiation cannot cease.
+
+  - term: "dissipation (diss)"
+    definition: |
+      The continuous dispersal of energy necessary to prevent fixation in Monos.
+      Dissipation is the energy cost of enforcing the prohibition: it ensures
+      reality cannot 'freeze' into absolute identity.
+    
+    short_form: "diss"
+    
+    ontological_status: "enforcement_mechanism"
+    
+    physical_manifestation: "Entropy increase (ΔS > 0)"
+    
+    relationship_to_CMI: |
+      Dissipation is the energetic consequence of the КМИ structure:
+      - Prohibition generates momentum
+      - Momentum requires force (F = dp/dt)
+      - Force requires energy (E = ∫F·dx)
+      - Energy expenditure manifests as dissipation
+    
+    full_specification: "CORE/operators.yaml#dissipate"
+    
+    usage: "diss(p) → ΔS(p) > 0"
+    
+    notes: |
+      The Second Law of Thermodynamics (ΔS ≥ 0) is a consequence of
+      ontological dissipation, not a separate physical law.
+
   - term: "Monos"
-    definition: "The processual, continuous ontological substrate where distinctions occur."
+    definition: |
+      The processual, continuous ontological substrate where distinctions occur.
+      Reality as perpetual differentiation, where momentum is conserved and
+      dissipation actively operates.
     
     status: "ontology"
     
+    symbolic_representability: false
+    
     full_specification: "CORE/ontology.yaml#categories/monos"
     
-    notes: "See ontology.yaml for complete definition and characteristics."
+    notes: |
+      See ontology.yaml for complete definition and characteristics.
+      CRITICAL: Monos is non-symbolic; all symbols belong to Logos.
 
   - term: "Logos"
-    definition: "The epistemic framework where distinctions are fixed and modeled."
+    definition: |
+      The epistemic framework where distinctions are fixed and modeled.
+      Space of theories and representations where fix operations are permitted.
     
     status: "epistemology"
+    
+    symbolic_representability: true
     
     full_specification: "CORE/ontology.yaml#categories/logos"
     
