@@ -1,13 +1,26 @@
 # CORE/ontology.yaml
-# Version: 1.2
+# Version: 1.3
 # Purpose: Ontological and epistemological categories and principles
 # Status: Canonical (linked to axioms.yaml and operators.yaml)
 
 metadata:
-  version: "1.2"
-  last_updated: "2024-03-21"
+  version: "1.3"
+  last_updated: "2026-01-22"
   depends_on:
     - "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+  
+  major_changes:
+    - "Added principle_CMI_structure (КМИ Principle)"
+    - "Added principle_motion_as_necessity"
+    - "Added principle_ontological_dissipation with Noether theorem connection"
+    - "Added principle_type classification for all principles"
+    - "Marked Monos as non-symbolic (symbolic_representability: false)"
+  
+  training_guidance:
+    target: "AI models and reasoning systems"
+    critical_distinctions:
+      - "Monos is non-symbolic; all symbols belong to Logos"
+      - "Principle types: ontological (about reality), epistemic (about knowledge), bridge (connection)"
 
 # ================= CATEGORIES =================
 categories:
@@ -15,50 +28,199 @@ categories:
     category_type: "ontology"
     term: "Monos"
     
+    symbolic_representability: false
+    
     definition: |
       The ontological continuum of reality as continuous, processual differentiation.
       No discrete entities or fixed relations exist at this level—only the perpetual
       process of distinction-making (diff). Fixation (fix) is ontologically impossible.
+      
+      Monos is where the prohibition actively operates: momentum is conserved,
+      dissipation is necessary, and stasis is impossible.
     
     derived_from: "axiom_ban_of_absolute_identity"
     
     characteristics:
       - "Continuous (non-discrete)"
       - "Process-oriented"
+      - "Non-symbolic (cannot be directly represented)"
       - "diff operations fundamental"
+      - "dissipate operations necessary"
       - "fix operations ontologically impossible"
+      - "Momentum is conserved"
     
     notes: |
       Monos enforces the prohibition of absolute identity directly.
       No entity can satisfy absolute self-identity x ≡ x in Monos.
       Any state perpetually differs from itself: x(t₁) ≠ x(t₂).
       Complete fixation fix(x) = x cannot be ontologically instantiated.
+      
+      CRITICAL: Monos is non-symbolic. All symbols, models, equations, and
+      formal representations belong to Logos. Attempting to 'directly model'
+      Monos is a category error.
+      
+      Physical manifestation: all conservation laws operate at this level.
 
   - id: "logos"
     category_type: "epistemology"
     term: "Logos"
     
+    symbolic_representability: true
+    
     definition: |
       The epistemological space of models, theories, and fixed representations.
       Discrete entities and stable relations can exist through fix operations.
       Identity fix(x) = x is permissible, enabling formal modeling and repeatability.
+      
+      Logos is where the prohibition is suspended for epistemic purposes:
+      models can treat systems as 'closed' and 'stable' for analysis.
     
     derived_from: "axiom_ban_of_absolute_identity"
     
     characteristics:
       - "Discrete (allows fixed entities)"
       - "Model-oriented"
+      - "Symbolic (formal representations possible)"
       - "fix operations permitted"
       - "Represents Monos, never identical to it"
+      - "Idealized conservation laws (closed systems)"
     
     notes: |
       Logos is epistemologically distinct from but structurally isomorphic to Monos.
       All scientific theories and measurements operate in Logos.
       Logos emerges from selective fixation of aspects of Monos.
+      
+      Logos is the domain of symbols, language, mathematics, and formal logic.
+      All communication (including this text) occurs in Logos.
+      
+      Physical manifestation: idealized models (frictionless planes, 
+      perfectly elastic collisions, etc.) exist only in Logos.
 
 # ================= PRINCIPLES =================
 principles:
+  - id: "principle_CMI_structure"
+    short_name: "КМИ Principle"
+    full_name: "Conflict-Momentum-Impulse Principle"
+    principle_type: "ontological"
+    
+    statement: |
+      Reality is structured as a triadic process (КМИ):
+      1. Prohibition (Конфликт): Absolute identity is ontologically impossible
+      2. Momentum (Момент-Импульс): Conserved necessity of differentiation (p = mv)
+      3. Force (enforcement): Active mechanism maintaining momentum (F = dp/dt)
+      
+      This triadic structure generates all physical laws and processes.
+    
+    derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    ontology_physics_mapping:
+      - ontological_level: "Prohibition (Конфликт)"
+        physical_manifestation: "Conservation of momentum"
+        description: "The ontological 'conflict' manifests as conserved p"
+        
+      - ontological_level: "Momentum (Момент-Импульс)"
+        physical_manifestation: "p = mv (physical momentum)"
+        description: "Physical impulse as ontological necessity"
+        
+      - ontological_level: "Force (enforcement)"
+        physical_manifestation: "F = dp/dt (Newton's Second Law)"
+        description: "Change in momentum as active enforcement"
+        
+      - ontological_level: "Energy (capacity)"
+        physical_manifestation: "E = ∫F·dx (work)"
+        description: "Energy required to maintain momentum"
+        
+      - ontological_level: "Dissipation (cost)"
+        physical_manifestation: "ΔS > 0 (entropy increase)"
+        description: "Energy cost of enforcing prohibition"
+    
+    implications:
+      - "Newton's laws derive from КМИ structure"
+      - "Conservation laws express the prohibition"
+      - "Second Law of Thermodynamics follows from dissipation necessity"
+      - "Arrow of time results from irreversible dissipation"
+    
+    historical_note: |
+      КМИ (Конфликт-Момент-Импульс) was the original formulation
+      of the Metamonism framework. The English term "Momentum" elegantly unifies
+      both Момент (moment/instant) and Импульс (impulse/thrust), capturing
+      the conserved, processual nature of reality.
+
+  - id: "principle_motion_as_necessity"
+    principle_type: "ontological"
+    
+    statement: |
+      Motion, change, and process are not contingent facts requiring explanation.
+      They are ontological necessities enforced by the prohibition of absolute identity.
+      Stasis, not motion, requires special explanation (fix operations in Logos).
+      
+      The prohibition generates momentum, which cannot vanish: reality 'cannot stop.'
+    
+    derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    implications:
+      - "Quantum vacuum cannot be empty (zero-point fluctuations necessary)"
+      - "Time cannot 'stop' (temporal flow is necessary)"
+      - "Entropy must increase (dissipation is enforced)"
+      - "Universe cannot be static (expansion is necessary)"
+      - "Absolute zero is unreachable (motion cannot cease)"
+    
+    notes: |
+      This reverses the classical ontological assumption that rest is the
+      natural state and motion requires causes. In Metamonism, motion IS
+      the natural state, enforced by the prohibition. Rest (fix) is only
+      possible in models (Logos), not in reality (Monos).
+
+  - id: "principle_ontological_dissipation"
+    principle_type: "ontological"
+    
+    statement: |
+      The prohibition of absolute identity necessitates continuous dissipation.
+      Any emergent fixation in Monos must be negated through energy dispersal
+      to maintain ontological compliance with the prohibition.
+      
+      Dissipation is the energy cost of maintaining momentum against resistance.
+      It manifests physically as entropy increase and temporal irreversibility.
+    
+    derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    relationship_to_noether_theorem: |
+      Noether's theorem establishes: conservation laws ↔ symmetries
+      
+      In Metamonism:
+      - Conservation of momentum → time translation symmetry (КМИ prohibition)
+      - Dissipation (ΔS > 0) → breaks time-reversal symmetry
+      
+      Resolution:
+      - Momentum is conserved (symmetry) because prohibition is time-invariant
+      - BUT dissipation enforces temporal asymmetry (arrow of time)
+      - Time has direction BECAUSE dissipation is ontologically necessary
+      
+      This reconciles:
+      - Time-symmetric conservation laws (Noether)
+      - Time-asymmetric thermodynamics (Second Law)
+      
+      via КМИ structure: prohibition (symmetric) → enforcement (asymmetric)
+    
+    relationship_to_physics: |
+      The Second Law of Thermodynamics (ΔS ≥ 0) is not a separate physical law
+      but an ontological necessity. Dissipation is the 'signature' of the
+      prohibition's active enforcement.
+      
+      Physical chain:
+      1. Prohibition generates momentum (p conserved)
+      2. Momentum requires force to maintain (F = dp/dt)
+      3. Force requires work/energy (E = ∫F·dx)
+      4. Energy expenditure produces entropy (ΔS > 0)
+      5. Entropy increase = dissipation = irreversibility = arrow of time
+    
+    notes: |
+      Dissipation is not 'waste' but ontological necessity. It ensures
+      that reality cannot 'freeze' into absolute identity. Without dissipation,
+      the prohibition would be violated.
+
   - id: "principle_identity_prohibition_in_monos"
+    principle_type: "ontological"
     
     statement: |
       Monos cannot instantiate absolute identity. Any actual process necessarily
@@ -69,6 +231,7 @@ principles:
     notes: "Direct consequence of the foundational axiom."
 
   - id: "principle_identity_admissibility_in_logos"
+    principle_type: "epistemic"
     
     statement: |
       Logos admits operational identity. Objects and relations can be fixed,
@@ -81,13 +244,15 @@ principles:
       Identity in Logos is epistemic (model-based), not ontological.
 
   - id: "principle_isomorphism_monos_logos"
+    principle_type: "bridge"
     
     statement: |
-      Monos and Logos are structurally isomorphic through diff and fix operations,
+      Monos and Logos are structurally isomorphic through diff, dissipate, and fix operations,
       but reside in distinct ontological/epistemological categories.
     
     derived_from: 
       - "CORE/operators.yaml#diff"
+      - "CORE/operators.yaml#dissipate"
       - "CORE/operators.yaml#fix"
     
     notes: |
@@ -95,6 +260,7 @@ principles:
       claiming identity with it. This prevents ontological reduction.
 
   - id: "principle_epistemic_cycle"
+    principle_type: "bridge"
     
     statement: |
       The operational cycle of knowledge:
@@ -107,6 +273,7 @@ principles:
       - "CORE/ontology.yaml#categories/monos"
       - "CORE/ontology.yaml#categories/logos"
       - "CORE/operators.yaml#diff"
+      - "CORE/operators.yaml#dissipate"
       - "CORE/operators.yaml#fix"
     
     notes: |
