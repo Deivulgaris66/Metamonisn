@@ -1,18 +1,41 @@
 # CORE/axioms.yaml
 # Version: 1.0 (Canonical)
 # Language: English (Primary)
-# Purpose: The single, operational axiom of the Metamonism framework.
-# Principle: The prohibition of identity directly necessitates distinction.
+# Purpose: Foundational axioms of the Metamonism framework
+# Status: Immutable (changes require major version increment)
 
 axioms:
-  - id: "axiom_actuality_ban_of_identity"
+  - id: "axiom_ban_of_absolute_identity"
+    short_name: "Indifference Prohibition Axiom"
+    
     statement: |
-      The Axiom of Reality's Actualization prohibits absolute identity, i.e., the absence of distinction.
-      Consequently, everything actual must adhere to this prohibition by possessing distinction.
+      Absolute identity (a state without distinctions) is ontologically impossible.
+    
     type: "primary_constraint"
     status: "canonical"
+    version: "1.0"
+    
+    formal_expression: "∄ S : (∀ x,y ∈ S, x ≡ y)"
+    
     notes: |
-      This is the foundational operational rule.
-      It does not describe reality but constrains it: identity is impossible.
-      Therefore, to be actual is to satisfy this constraint by necessarily bearing distinction.
-      Distinction is not an option but the only possible form of compliance with the prohibition.
+      This is the foundational constraint of the framework.
+      It functions as a boundary condition: any valid ontological model must be
+      consistent with the impossibility of absolute identity.
+      
+      This axiom is not empirically falsifiable, but all derivative theories built on this
+      foundation must be falsifiable.
+    
+    implications:
+      - "Reality exists only as a process of differentiation."
+      - "Any existing entity must possess at least one distinction."
+      - "Complete self-identity without context is ontologically empty."
+    
+    related_terms:
+      - "diff_operator"
+      - "fix_operator"
+      - "Monos"
+      - "Logos"
+    
+    references:
+      - "CORE/definitions.yaml#absolute_identity"
+      - "CORE/operators.yaml#diff"
