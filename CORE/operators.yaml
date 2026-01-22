@@ -12,7 +12,7 @@ metadata:
   
   major_changes:
     - "Added dissipate operator (energy/entropy aspect)"
-    - "Integrated КМИ structure into all operators"
+    - "Integrated CMI structure into all operators"
     - "Added physical correspondence for all operators"
     - "Added short_symbol 'diss' for dissipate operator"
   
@@ -45,7 +45,7 @@ operators:
     derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
     
     relationship_to_CMI: |
-      diff is the operational expression of Momentum (Момент-Импульс):
+      diff is the operational expression of Momentum (Moment-Impulse):
       - Prohibition generates momentum
       - Momentum manifests as perpetual diff operations
       - diff produces the distinctions that constitute motion
@@ -130,10 +130,10 @@ operators:
     derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
     
     relationship_to_CMI: |
-      dissipate is the energetic consequence of the КМИ structure:
+      dissipate is the energetic consequence of the CMI structure:
       
-      1. Prohibition (Конфликт) → generates conserved momentum
-      2. Momentum (Момент-Импульс) → requires force to maintain (F = dp/dt)
+      1. Prohibition (Conflict) → generates conserved momentum
+      2. Momentum (Moment-Impulse) → requires force to maintain (F = dp/dt)
       3. Force → requires energy expenditure (W = ∫F·dx)
       4. Energy expenditure → manifests as dissipation
       
@@ -268,7 +268,7 @@ operators:
       - "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
     
     relationship_to_CMI: |
-      fix is the epistemic complement to the ontological КМИ structure:
+      fix is the epistemic complement to the ontological CMI structure:
       - In Monos: Prohibition enforces momentum; fix is impossible
       - In Logos: Prohibition is suspended; fix enables modeling
       
