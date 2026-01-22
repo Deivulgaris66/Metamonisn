@@ -1,8 +1,13 @@
 # CORE/axioms.yaml
-# Version: 1.0 (Canonical)
+# Version: 1.2 (Canonical)
 # Language: English (Primary)
 # Purpose: Foundational axioms of the Metamonism framework
 # Status: Immutable (changes require major version increment)
+
+metadata:
+  version: "1.2"
+  date_established: "2024-03-21"
+  last_reviewed: "2024-03-21"
 
 axioms:
   - id: "axiom_ban_of_absolute_identity"
@@ -13,17 +18,16 @@ axioms:
     
     type: "primary_constraint"
     status: "canonical"
-    version: "1.0"
     
-    formal_expression: "∄ S : (∀ x,y ∈ S, x ≡ y)"
+    formal_expression: "¬∃ x : (x ≡ x ∧ ¬diff(x))"
     
     notes: |
       This is the foundational constraint of the framework.
       It functions as a boundary condition: any valid ontological model must be
       consistent with the impossibility of absolute identity.
       
-      This axiom is not empirically falsifiable, but all derivative theories built on this
-      foundation must be falsifiable.
+      This axiom is not empirically falsifiable (like axioms of logic or mathematics),
+      but all derivative theories built on this foundation must be falsifiable.
     
     implications:
       - "Reality exists only as a process of differentiation."
@@ -38,4 +42,6 @@ axioms:
     
     references:
       - "CORE/definitions.yaml#absolute_identity"
+      - "CORE/definitions.yaml#distinction"
       - "CORE/operators.yaml#diff"
+      - "CORE/operators.yaml#fix"
