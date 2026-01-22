@@ -1,0 +1,68 @@
+# CORE/01_ontology.yaml
+# Version: 1.1
+# Purpose: Primary ontological and epistemological consequences derived from the Axiom of Actuality's Ban of Identity.
+# Categories, operators, and principles are strictly forced by the axiom.
+
+# ================= CATEGORIES =================
+categories:
+  - id: "monos"
+    category_type: "ontology"
+    term: "Monos"
+    definition: |
+      Continuum of actualized processes. Only states exist; no entities or relations.
+      Diff is fundamental; fix is impossible. Represents reality as irreducible, continuous process.
+    derived_from: "axiom_actuality_ban_of_identity"
+    notes: |
+      Monos enforces the prohibition of absolute identity directly.
+      Diff(x, x) ≠ 0. Complete fixation is impossible. Analytical limit: only partial epistemic access.
+
+  - id: "logos"
+    category_type: "epistemology"
+    term: "Logos"
+    definition: |
+      Space of models and formalizations. Entities and relations exist; fixation is possible and required.
+      Diff(x, x) = 0; fix(x) = x. Provides operational stability and repeatability.
+    derived_from: "axiom_actuality_ban_of_identity"
+    notes: |
+      Logos is isomorphic to Monos by operations (diff, fix), but epistemologically distinct.
+      Operational space of identity, repetition, and formal abstraction. Represents our capacity to model reality.
+
+# ================= OPERATORS =================
+operators:
+  - id: "operator_diff"
+    symbol: "diff"
+    definition: "Fundamental operation of differentiation producing distinction."
+    applicable_to:
+      - "monos"
+    derived_from: "axiom_actuality_ban_of_identity"
+    notes: "Diff(x, x) ≠ 0 in Monos; reveals structural necessity of distinction."
+
+  - id: "operator_fix"
+    symbol: "fix"
+    definition: "Operation of fixation, rendering distinctions explicit and entities identifiable."
+    applicable_to:
+      - "logos"
+    derived_from: ["axiom_actuality_ban_of_identity", "operator_diff"]
+    notes: "Fix(x) is only admissible in Logos. Makes aspects of Monos operationally accessible."
+
+# ================= PRINCIPLES =================
+principles:
+  - id: "principle_identity_violation_in_monos"
+    statement: "Monos cannot admit absolute identity; any actualized state inherently violates identity."
+    derived_from: "axiom_actuality_ban_of_identity"
+    notes: "Expresses ontological asymmetry; actualization requires distinction."
+
+  - id: "principle_identity_admissibility_in_logos"
+    statement: "Logos admits identity; objects and relations can be fixed, repeated, and modeled."
+    derived_from: "axiom_actuality_ban_of_identity"
+    notes: "Enables formal modeling, prediction, and operational stability."
+
+  - id: "principle_isomorphism_diff_fix"
+    statement: "Monos and Logos are structurally isomorphic through diff and fix operations, but reside in distinct categories."
+    derived_from: ["operator_diff", "operator_fix"]
+    notes: "Isomorphism allows models to reference reality without equating with it."
+
+  - id: "principle_dynamic_cycle"
+    statement: "Operational cycle: new unfixable aspects in Monos → analytical selection → fixation in Logos → emergence of new Monos."
+    derived_from: ["monos", "logos", "operator_fix", "operator_diff"]
+    notes: "Describes iterative interplay between process (Monos) and model (Logos)."
