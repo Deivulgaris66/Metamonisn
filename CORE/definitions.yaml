@@ -1,21 +1,60 @@
 # CORE/definitions.yaml
-# Version: 1.1
-# Purpose: Technical definitions of core elements, referencing 01_ontology.yaml
+# Version: 1.2
+# Purpose: Glossary of terms with references to formal specifications
+
+metadata:
+  version: "1.2"
+  last_updated: "2024-03-21"
+  depends_on:
+    - "CORE/axioms.yaml"
+    - "CORE/ontology.yaml"
+    - "CORE/operators.yaml"
 
 definitions:
-  - id: "Monos"
-    reference: "01_ontology.yaml#categories/monos"
-    summary: "Ontological continuum of processes; only states exist, diff fundamental, fix impossible."
+  - term: "absolute_identity"
+    definition: |
+      A hypothetical state in which no distinctions exist whatsoever.
+      Equivalent to complete indifference, total self-sameness, or absence of differentiation.
+    
+    status: "ontologically_impossible"
+    
+    reference: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    notes: "Cannot be instantiated according to the Indifference Prohibition Axiom."
 
-  - id: "Logos"
-    reference: "01_ontology.yaml#categories/logos"
-    summary: "Epistemological space of models; entities and relations exist, fix allowed."
+  - term: "distinction"
+    definition: "A minimal differentiable feature or property of a process or entity."
+    
+    status: "ontologically_necessary"
+    
+    reference: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    notes: "Every actual process must possess distinctions (axiom implication)."
 
-  - id: "diff"
-    reference: "01_ontology.yaml#operators/operator_diff"
-    summary: "Operation producing distinction; fundamental in Monos."
+  - term: "Monos"
+    definition: "The processual, continuous ontological substrate where distinctions occur."
+    
+    status: "ontology"
+    
+    full_specification: "CORE/ontology.yaml#categories/monos"
+    
+    notes: "See ontology.yaml for complete definition and characteristics."
 
-  - id: "fix"
-    reference: "01_ontology.yaml#operators/operator_fix"
-    summary: "Operation fixing distinctions; permitted only in Logos."
+  - term: "Logos"
+    definition: "The epistemic framework where distinctions are fixed and modeled."
+    
+    status: "epistemology"
+    
+    full_specification: "CORE/ontology.yaml#categories/logos"
+    
+    notes: "See ontology.yaml for complete definition and characteristics."
+    
+  - term: "diff"
+    definition: "Fundamental operation of differentiation producing distinction."
+    
+    full_specification: "CORE/operators.yaml#diff"
 
+  - term: "fix"
+    definition: "Operation of fixation, stabilizing distinctions into discrete entities."
+    
+    full_specification: "CORE/operators.yaml#fix"
