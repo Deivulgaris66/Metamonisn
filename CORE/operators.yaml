@@ -1,14 +1,162 @@
 # CORE/operators.yaml
-# Version: 1.1
-# Purpose: Technical reference for operations diff/fix, cross-referencing categories
+# Version: 1.2
+# Purpose: Formal specifications of fundamental operators (diff, fix)
+# Status: Canonical (linked to axioms.yaml and ontology.yaml)
+
+metadata:
+  version: "1.2"
+  last_updated: "2024-03-21"
+  depends_on:
+    - "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    - "CORE/ontology.yaml"
+
+# ================= OPERATORS =================
 
 operators:
   - id: "diff"
     symbol: "diff"
-    description: "Generates distinction; applies to Monos."
-    category_reference: "Monos"
+    full_name: "Differentiation Operator"
+    
+    definition: |
+      The fundamental operation that produces distinctions from a continuous,
+      processual substrate. Ontologically primary and cannot be reduced to
+      more basic operations.
+    
+    signature: "diff: Process → Distinction"
+    
+    ontological_status: "primitive"
+    
+    derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    applicable_to:
+      - category: "monos"
+        category_ref: "CORE/ontology.yaml#categories/monos"
+        status: "fundamental"
+        notes: |
+          In Monos, diff is the only ontologically primitive operation.
+          Reality exists as perpetual differentiation.
+      
+      - category: "logos"
+        category_ref: "CORE/ontology.yaml#categories/logos"
+        status: "modeled"
+        notes: |
+          In Logos, diff can be represented and modeled, but is always
+          a fixation (approximation) of the Monos-level process.
+    
+    properties:
+      - property: "Non-reversibility"
+        description: "diff cannot be 'undone' to restore absolute identity"
+        
+      - property: "Continuity"
+        description: "Operates on processual, non-discrete substrate"
+        
+      - property: "Context-dependence"
+        description: "Distinctions emerge relative to observational/modeling frame"
+    
+    formal_constraints:
+      - "∀ x ∈ Monos: diff(x) ≠ ∅ (distinctions always exist)"
+      - "diff is not invertible: no diff⁻¹ operation exists"
+    
+    examples:
+      - domain: "physics"
+        instance: "Quantum measurement as diff operation on superposed state"
+        reference: "To be developed in ONTODYNAMICS/PHYSICS/"
+      
+      - domain: "biology"
+        instance: "Cell differentiation as actualization of genetic distinctions"
+        reference: "To be developed in ONTODYNAMICS/BIOLOGY/"
+      
+      - domain: "cosmology"
+        instance: "Spacetime expansion as continuous diff of metric tensor"
+        reference: "ONTODYNAMICS/COSMOLOGY/redshift.yaml"
+    
+    related_operators:
+      - "fix"
+    
+    notes: |
+      diff is not a function in the classical mathematical sense
+      (deterministic input → output). It represents the ontological fact
+      that reality is inherently and perpetually differentiating.
+      
+      The prohibition of absolute identity (axiom_ban_of_absolute_identity)
+      necessitates diff as the fundamental ontological operation.
 
   - id: "fix"
     symbol: "fix"
-    description: "Fixes distinction, creating entities and relations; applies to Logos."
-    category_reference: "Logos"
+    full_name: "Fixation Operator"
+    
+    definition: |
+      The operation that stabilizes distinctions (produced by diff) into discrete,
+      identifiable, and repeatable entities. Enables modeling, prediction, and
+      scientific formalization.
+    
+    signature: "fix: Distinction → Entity"
+    
+    ontological_status: "derivative"
+    
+    derived_from: 
+      - "CORE/operators.yaml#diff"
+      - "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    applicable_to:
+      - category: "logos"
+        category_ref: "CORE/ontology.yaml#categories/logos"
+        status: "fundamental"
+        notes: |
+          In Logos, fix is the foundational operation enabling models.
+          All scientific theories depend on fix to create stable entities.
+      
+      - category: "monos"
+        category_ref: "CORE/ontology.yaml#categories/monos"
+        status: "ontologically_impossible"
+        notes: |
+          In Monos, fix cannot be instantiated. Any attempt to fix reality
+          would violate the axiom of indifference prohibition.
+    
+    properties:
+      - property: "Selectivity"
+        description: "fix selects specific aspects of diff for stabilization"
+        
+      - property: "Discretization"
+        description: "Converts continuous distinctions into discrete entities"
+        
+      - property: "Repeatability"
+        description: "Enables identity: fix(x) = x within a model"
+    
+    formal_constraints:
+      - "fix: Logos only (∄ fix in Monos)"
+      - "fix ∘ diff ≠ identity (fixation is always selective, lossy)"
+      - "∀ x ∈ Logos: fix(x) = x (operational stability)"
+    
+    examples:
+      - domain: "physics"
+        instance: "Particle as fix of quantum field excitations"
+        reference: "To be developed in ONTODYNAMICS/PHYSICS/"
+      
+      - domain: "measurement"
+        instance: "Measurement outcome as fix of quantum superposition"
+        reference: "To be developed in ONTODYNAMICS/PHYSICS/quantum_mechanics.yaml"
+      
+      - domain: "biology"
+        instance: "Species as fix of evolutionary differentiation"
+        reference: "To be developed in ONTODYNAMICS/BIOLOGY/"
+    
+    related_operators:
+      - "diff"
+    
+    relationship_to_diff: |
+      fix is ontologically posterior to diff:
+      1. diff produces distinctions (Monos-level)
+      2. fix stabilizes selected distinctions into entities (Logos-level)
+      
+      fix is an epistemic operation, not an ontological one.
+      It represents our capacity to model reality, not reality itself.
+    
+    notes: |
+      The impossibility of fix in Monos is a direct consequence of the
+      indifference prohibition axiom. If fix were possible in Monos,
+      absolute identity could be instantiated, violating the axiom.
+      
+      All scientific models operate through fix. The iterative refinement
+      of science consists in discovering new distinctions (diff) that
+      previous fixations failed to capture.
