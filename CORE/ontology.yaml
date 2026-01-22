@@ -1,0 +1,115 @@
+# CORE/ontology.yaml
+# Version: 1.2
+# Purpose: Ontological and epistemological categories and principles
+# Status: Canonical (linked to axioms.yaml and operators.yaml)
+
+metadata:
+  version: "1.2"
+  last_updated: "2024-03-21"
+  depends_on:
+    - "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+
+# ================= CATEGORIES =================
+categories:
+  - id: "monos"
+    category_type: "ontology"
+    term: "Monos"
+    
+    definition: |
+      The ontological continuum of reality as continuous, processual differentiation.
+      No discrete entities or fixed relations exist at this level—only the perpetual
+      process of distinction-making (diff). Fixation (fix) is ontologically impossible.
+    
+    derived_from: "axiom_ban_of_absolute_identity"
+    
+    characteristics:
+      - "Continuous (non-discrete)"
+      - "Process-oriented"
+      - "diff operations fundamental"
+      - "fix operations ontologically impossible"
+    
+    notes: |
+      Monos enforces the prohibition of absolute identity directly.
+      No entity can satisfy absolute self-identity x ≡ x in Monos.
+      Any state perpetually differs from itself: x(t₁) ≠ x(t₂).
+      Complete fixation fix(x) = x cannot be ontologically instantiated.
+
+  - id: "logos"
+    category_type: "epistemology"
+    term: "Logos"
+    
+    definition: |
+      The epistemological space of models, theories, and fixed representations.
+      Discrete entities and stable relations can exist through fix operations.
+      Identity fix(x) = x is permissible, enabling formal modeling and repeatability.
+    
+    derived_from: "axiom_ban_of_absolute_identity"
+    
+    characteristics:
+      - "Discrete (allows fixed entities)"
+      - "Model-oriented"
+      - "fix operations permitted"
+      - "Represents Monos, never identical to it"
+    
+    notes: |
+      Logos is epistemologically distinct from but structurally isomorphic to Monos.
+      All scientific theories and measurements operate in Logos.
+      Logos emerges from selective fixation of aspects of Monos.
+
+# ================= PRINCIPLES =================
+principles:
+  - id: "principle_identity_prohibition_in_monos"
+    
+    statement: |
+      Monos cannot instantiate absolute identity. Any actual process necessarily
+      possesses distinctions and cannot be reduced to complete self-sameness.
+    
+    derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    
+    notes: "Direct consequence of the foundational axiom."
+
+  - id: "principle_identity_admissibility_in_logos"
+    
+    statement: |
+      Logos admits operational identity. Objects and relations can be fixed,
+      repeated, and modeled as stable entities.
+    
+    derived_from: "CORE/operators.yaml#fix"
+    
+    notes: |
+      This enables formal modeling, prediction, and operational stability.
+      Identity in Logos is epistemic (model-based), not ontological.
+
+  - id: "principle_isomorphism_monos_logos"
+    
+    statement: |
+      Monos and Logos are structurally isomorphic through diff and fix operations,
+      but reside in distinct ontological/epistemological categories.
+    
+    derived_from: 
+      - "CORE/operators.yaml#diff"
+      - "CORE/operators.yaml#fix"
+    
+    notes: |
+      Isomorphism allows models (Logos) to reference reality (Monos) without
+      claiming identity with it. This prevents ontological reduction.
+
+  - id: "principle_epistemic_cycle"
+    
+    statement: |
+      The operational cycle of knowledge:
+      1. Monos: continuous process with unfixable aspects
+      2. Epistemic selection: choosing aspects for modeling
+      3. Logos: fixation into stable models
+      4. Discovery: models reveal previously unmodeled aspects of Monos
+    
+    derived_from: 
+      - "CORE/ontology.yaml#categories/monos"
+      - "CORE/ontology.yaml#categories/logos"
+      - "CORE/operators.yaml#diff"
+      - "CORE/operators.yaml#fix"
+    
+    notes: |
+      This is an epistemic cycle, not ontological generation.
+      Monos ontologically precedes Logos. The cycle describes how scientific
+      knowledge iteratively refines models without exhausting reality.
