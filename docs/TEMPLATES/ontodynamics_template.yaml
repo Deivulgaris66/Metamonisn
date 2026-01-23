@@ -1,0 +1,216 @@
+# ONTODYNAMICS/[DISCIPLINE]/[topic].yaml
+# Version: 1.0
+# Purpose: [Brief one-line description of this model]
+# Derived from: CORE v1.3
+# Author: [Your name/username]
+# Date: YYYY-MM-DD
+
+metadata:
+  version: "1.0"
+  last_updated: "YYYY-MM-DD"
+  discipline: "[Physics/Biology/Chemistry/Cosmology/CognitiveScience/Social/etc]"
+  topic: "[Specific topic]"
+  
+  derived_from: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+  
+  falsifiable: true  # Must be true for scientific models
+  
+  status: "proposed"  # proposed / validated / accepted
+  
+  author: "[Your name]"
+  contact: "[GitHub username or email]"
+
+# ================= MODEL SPECIFICATION =================
+
+model:
+  id: "[unique_model_id]"  # e.g., "physics_thermodynamics_second_law"
+  name: "[Descriptive Model Name]"
+  
+  summary: |
+    Brief (2-3 sentence) description of what this model explains
+    in terms of КМИ structure.
+  
+  # ================= DERIVATION FROM КМИ =================
+  
+  derivation_from_CMI:
+    prohibition_manifestation: |
+      Explain how the Prohibition (Конфликт) manifests in this domain.
+      
+      Example: In thermodynamics, the prohibition manifests as the
+      impossibility of perfect order (zero entropy).
+    
+    momentum_manifestation: |
+      Explain how Momentum (Момент-Импульс) appears in this domain.
+      
+      Example: Conserved energy/momentum in physical processes.
+    
+    force_manifestation: |
+      Explain how Force (enforcement) operates.
+      
+      Example: Temperature gradients drive heat flow.
+    
+    dissipation_manifestation: |
+      Explain how Dissipation enforces the prohibition.
+      
+      Example: Entropy increase prevents return to perfect order.
+  
+  # ================= OPERATORS =================
+  
+  core_operators:
+    - operator: "diff"
+      symbol: "diff"
+      
+      manifestation_in_domain: |
+        How does differentiation (diff) appear in this specific domain?
+        
+        Example (biology): Cell differentiation during development
+        Example (physics): Phase transitions
+        Example (chemistry): Reaction pathways
+      
+      examples:
+        - example: "[Specific example 1]"
+          description: "[How diff operates]"
+        
+        - example: "[Specific example 2]"
+          description: "[How diff operates]"
+    
+    - operator: "dissipate"
+      symbol: "diss"
+      
+      manifestation_in_domain: |
+        How does dissipation (diss) appear in this specific domain?
+        
+        Example (physics): Heat dissipation, friction
+        Example (biology): Metabolic waste heat
+        Example (cosmology): Cosmic expansion/cooling
+      
+      physical_signature: "[What measurable quantity shows dissipation?]"
+      # Example: Entropy increase (ΔS > 0), heat production, radiation
+      
+      examples:
+        - example: "[Specific example 1]"
+          description: "[How diss operates]"
+          measurement: "[How to measure it]"
+    
+    - operator: "fix"
+      symbol: "fix"
+      
+      manifestation_in_domain: |
+        How does fixation (fix) work in Logos models of this domain?
+        
+        Important: fix only operates in Logos (models), not Monos (reality).
+        
+        Example (physics): Idealized point particles, frictionless systems
+        Example (biology): Species categories, genetic sequences
+        Example (chemistry): Molecular structures, reaction mechanisms
+      
+      epistemic_role: |
+        Explain how fix enables modeling/prediction in this domain.
+      
+      examples:
+        - model: "[Specific Logos model 1]"
+          what_is_fixed: "[What aspects are stabilized for modeling]"
+          limitation: "[What is lost/approximated by this fixation]"
+  
+  # ================= PREDICTIONS =================
+  
+  predictions:
+    - id: "prediction_1"
+      statement: "[Clear, testable prediction]"
+      
+      testable: true
+      
+      test_method: |
+        How can this prediction be tested experimentally or observationally?
+      
+      falsification_criteria: |
+        What observation would falsify this prediction?
+      
+      status: "untested"  # untested / testing / confirmed / falsified
+    
+    - id: "prediction_2"
+      statement: "[Another testable prediction]"
+      testable: true
+      test_method: "[Method]"
+      falsification_criteria: "[Criteria]"
+      status: "untested"
+  
+  # ================= ONTOLOGICAL COMMITMENTS =================
+  
+  ontological_commitments:
+    - "Monos is continuous and processual (no discrete entities)"
+    - "Dissipation is ontologically necessary (not just physical friction)"
+    - "Motion/change is necessary; stasis requires explanation"
+    - "[Add domain-specific commitments]"
+  
+  # ================= LOGOS MODELS =================
+  
+  logos_models:
+    - model_name: "[Name of specific Logos model]"
+      
+      description: |
+        Describe the model and what it represents.
+      
+      what_is_fixed: |
+        What aspects of Monos are fixed/stabilized in this model?
+      
+      idealizations:
+        - "[Idealization 1]"  # e.g., "Assumes closed system"
+        - "[Idealization 2]"  # e.g., "Ignores dissipation"
+      
+      limitations: |
+        What does this model fail to capture about Monos?
+      
+      accuracy_domain: |
+        Under what conditions is this model accurate?
+  
+  # ================= ISOMORPHISMS =================
+  
+  isomorphisms_to_other_domains:
+    - domain: "[Other discipline]"
+      model: "[Specific model in that domain]"
+      
+      structural_similarity: |
+        Explain how this model is structurally similar to a model
+        in another domain via КМИ.
+      
+      shared_pattern: |
+        What pattern do they share?
+        Example: "Both show dissipative structures maintaining
+        organization through energy flow"
+  
+  # ================= REFERENCES =================
+  
+  references_to_core:
+    - "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    - "CORE/ontology.yaml#principle_CMI_structure"
+    - "CORE/ontology.yaml#principle_ontological_dissipation"
+    - "CORE/operators.yaml#diff"
+    - "CORE/operators.yaml#dissipate"
+    - "CORE/operators.yaml#fix"
+  
+  references_to_ontodynamics:
+    - "ONTODYNAMICS/[OTHER_DISCIPLINE]/[related_model].yaml"
+  
+  external_references:
+    - citation: "[Author, Year, Title]"
+      relevance: "[Why this reference matters]"
+
+# ================= NOTES =================
+
+notes: |
+  Additional notes, open questions, or areas for future development.
+  
+  Example:
+  - Need experimental validation of prediction_2
+  - Potential isomorphism with BIOLOGY/evolution.yaml to explore
+  - Mathematical formalization in progress
+
+# ================= CHANGELOG =================
+
+changelog:
+  - version: "1.0"
+    date: "YYYY-MM-DD"
+    changes:
+      - "Initial model specification"
+      - "Derived operators from КМИ structure"
