@@ -41,7 +41,7 @@ assignees: ''
 
 ## ✅ Checklist
 
-- [ ] This feature derives from КМИ structure
+- [ ] This feature derives from CMI structure
 - [ ] It maintains ontological consistency
 - [ ] It doesn't duplicate existing functionality
 - [ ] I have explained the motivation clearly
