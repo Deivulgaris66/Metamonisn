@@ -155,29 +155,3 @@ Refer to the foundational axiom:
 ```
 
 ---
-
-## ✅ Полный набор файлов готов!
-
-### Структура `.github/`:
-```
-.github/
-├── ISSUE_TEMPLATE/
-│   ├── bug_report.md
-│   ├── feature_request.md
-│   ├── core_refinement.md
-│   └── ontodynamics_proposal.md
-└── PULL_REQUEST_TEMPLATE.md
-```
-
-### Структура `docs/`:
-```
-docs/
-└── TEMPLATES/
-    ├── ontodynamics_template.yaml
-    ├── m_article_template.yaml
-    └── h_article_template.md
-```
-
-### В корне репозитория:
-```
-CONTRIBUTORS.md
