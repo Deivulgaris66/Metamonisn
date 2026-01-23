@@ -34,7 +34,7 @@
 ## 🧪 Validation
 
 ### For ONTODYNAMICS Extensions:
-- [ ] Derives explicitly from КМИ structure
+- [ ] Derives explicitly from CMI structure
 - [ ] Uses correct operator terminology (diff/diss/fix)
 - [ ] Distinguishes Monos (ontology) from Logos (models)
 - [ ] Includes falsifiable predictions
@@ -63,7 +63,7 @@
 
 **Does this PR maintain consistency with:**
 - [ ] CORE v1.3 axioms
-- [ ] КМИ structure (Prohibition → Momentum → Force → Dissipation)
+- [ ] CMI structure (Prohibition → Momentum → Force → Dissipation)
 - [ ] Monos/Logos distinction
 - [ ] Existing ONTODYNAMICS models
 
