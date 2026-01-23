@@ -30,17 +30,17 @@ model:
     Brief (2-3 sentence) description of what this model explains
     in terms of КМИ structure.
   
-  # ================= DERIVATION FROM КМИ =================
+  # ================= DERIVATION FROM CMI =================
   
   derivation_from_CMI:
     prohibition_manifestation: |
-      Explain how the Prohibition (Конфликт) manifests in this domain.
+      Explain how the Prohibition (Conflict) manifests in this domain.
       
       Example: In thermodynamics, the prohibition manifests as the
       impossibility of perfect order (zero entropy).
     
     momentum_manifestation: |
-      Explain how Momentum (Момент-Импульс) appears in this domain.
+      Explain how Momentum (Momentum-Impulse) appears in this domain.
       
       Example: Conserved energy/momentum in physical processes.
     
@@ -172,7 +172,7 @@ model:
       
       structural_similarity: |
         Explain how this model is structurally similar to a model
-        in another domain via КМИ.
+        in another domain via CMI.
       
       shared_pattern: |
         What pattern do they share?
