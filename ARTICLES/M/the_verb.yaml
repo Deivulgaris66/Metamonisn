@@ -1,7 +1,7 @@
 # ARTICLES/M/the_verb.yaml
 # Machine-readable specification for "THE VERB: ON FIRST PRINCIPLES"
 # Original title: "Monos and Logos as Verb: Ontological Foundation of Metamonism"
-# Version: 1.0
+# Version: 1.0-final
 # Status: canonical
 
 metadata:
@@ -10,15 +10,31 @@ metadata:
   author: "Andrii Myshko (Metamonist)"
   date: "2024-12-15"
   status: "canonical"
-  version: "1.0"
+  version: "1.0-final"
   
-  # Original paper structure
   sections:
     - "Monos: The Primary Something"
     - "The Mechanism of Reality: Autonegation"
     - "Logos as Verb"
     - "Metamonist Debugging Method"
     - "Decomposition of Key Paradoxes"
+
+# =============================================================================
+# EXTERNAL ENTITIES (for contradicts relation)
+# =============================================================================
+
+external_entities:
+  - id: "substance_ontology_aristotle"
+    type: "external_theory"
+    description: "Aristotelian substance metaphysics (permanent substrata)"
+    
+  - id: "absolute_idea_hegel"
+    type: "external_theory"
+    description: "Hegelian Absolute Idea as substance of spirit"
+    
+  - id: "ontological_argument"
+    type: "external_argument"
+    description: "Classical ontological argument (thought entails existence)"
 
 # =============================================================================
 # SEMANTIC RELATIONS
@@ -37,18 +53,18 @@ semantic_relations:
   # This article defines fundamental concepts
   - subject: "the_verb_article"
     relation: "defines"
-    object: "monos_concept"
+    object: "monos"
   
   - subject: "the_verb_article"
     relation: "defines"
-    object: "logos_concept"
+    object: "logos"
   
   - subject: "the_verb_article"
     relation: "defines"
     object: "autonegation"
   
   # Core derivations from axiom
-  - subject: "monos_concept"
+  - subject: "monos"
     relation: "derives_from"
     object: "CORE/axioms.yaml#ban_of_absolute_identity"
   
@@ -77,34 +93,34 @@ semantic_relations:
     relation: "contradicts"
     object: "ontological_argument"
   
-  # Isomorphisms
-  - subject: "monos_autonegation"
+  # Isomorphisms (using canonical IDs)
+  - subject: "monos"
     relation: "isomorphic_to"
-    object: "logos_diff_fix_conflict"
+    object: "logos"
   
-  # Empirical predictions
+  # Empirical predictions (objects are observables)
   - subject: "the_verb_article"
     relation: "predicts"
-    object: "quantum_superposition_epistemological"
-  
-  - subject: "the_verb_article"
-    relation: "predicts"
-    object: "consciousness_recursion_threshold"
+    object: "absence_of_physical_wavefunction_collapse"
   
   - subject: "the_verb_article"
     relation: "predicts"
-    object: "no_cosmological_singularity"
+    object: "consciousness_at_recursion_threshold"
   
-  # Explanations
+  - subject: "the_verb_article"
+    relation: "predicts"
+    object: "absence_of_initial_singularity"
+  
+  # Explanations (mechanisms explain phenomena)
   - subject: "autonegation"
     relation: "explains"
     object: "conservation_laws"
   
-  - subject: "logos_diff_fix"
+  - subject: "diff_fix_operations"
     relation: "explains"
     object: "wave_particle_duality"
   
-  - subject: "recursion_density"
+  - subject: "recursion_gradient"
     relation: "explains"
     object: "consciousness_emergence"
 
@@ -182,6 +198,58 @@ key_concepts:
       (stone: minimal self-distinction). High recursion = consciousness
       (brain: intensive self-distinction). Continuous gradient, no categorical gap.
     status: "canonical"
+    
+  - concept_id: "diff_fix_operations"
+    definition: |
+      The operational pair that constitutes Logos. Diff negates identity (distinction),
+      fix temporarily asserts identity (fixation). Both necessary; conflict between
+      them is epistemological manifestation of Monos conflict.
+    status: "canonical"
+
+# =============================================================================
+# OBSERVABLE DEFINITIONS (for predictions)
+# =============================================================================
+
+observables:
+  - observable_id: "absence_of_physical_wavefunction_collapse"
+    description: |
+      Quantum measurement shows no physical mechanism causing wavefunction collapse
+      independent of observation. Superposition remains epistemological (Logos state),
+      not ontological (Monos state).
+    measurable: true
+    current_status: "supported by interpretations that avoid collapse (Many-Worlds, relational)"
+    
+  - observable_id: "consciousness_at_recursion_threshold"
+    description: |
+      Consciousness emerges when Integrated Information (Φ) reaches critical density,
+      corresponding to self-applicable distinction (recursion threshold). Systems
+      with high Φ exhibit subjective experience.
+    measurable: true
+    current_status: "IIT provides Φ metric; ontological grounding pending"
+    
+  - observable_id: "absence_of_initial_singularity"
+    description: |
+      Universe has no temporal beginning. Big Bang represents threshold of
+      observability, not absolute origin. Quantum effects prevent true singularity.
+    measurable: true
+    current_status: "quantum gravity theories suggest singularity resolution"
+
+# =============================================================================
+# PHENOMENA DEFINITIONS (for explanations)
+# =============================================================================
+
+phenomena:
+  - phenomenon_id: "conservation_laws"
+    description: "Energy, momentum, charge conservation in physical systems"
+    domain: "physics"
+    
+  - phenomenon_id: "wave_particle_duality"
+    description: "Quantum entities exhibit wave-like and particle-like behavior"
+    domain: "quantum_mechanics"
+    
+  - phenomenon_id: "consciousness_emergence"
+    description: "Subjective experience arising in complex self-referential systems"
+    domain: "cognitive_science"
 
 # =============================================================================
 # CORE THEOREMS
@@ -355,7 +423,7 @@ paradox_decompositions:
 
 predictions:
   
-  - observable: "quantum_measurement_epistemological"
+  - observable: "absence_of_physical_wavefunction_collapse"
     prediction: |
       Quantum measurement is not physical collapse but completion of fix operation.
       Reality remains definite throughout; measurement completes our distinction.
@@ -366,7 +434,7 @@ predictions:
     status: "testable"
     advantage_over_alternatives: "Simpler than Many-Worlds, no hidden variables like Bohm"
     
-  - observable: "consciousness_recursion_threshold"
+  - observable: "consciousness_at_recursion_threshold"
     prediction: |
       Consciousness emerges at critical recursion density when distinction
       process becomes self-applicable. Integrated Information (Φ) measures
@@ -377,7 +445,7 @@ predictions:
     status: "testable"
     relation_to_IIT: "Grounds Tononi's Φ ontologically—explains WHY Φ correlates with experience"
     
-  - observable: "no_initial_singularity"
+  - observable: "absence_of_initial_singularity"
     prediction: |
       Universe has no temporal beginning. Big Bang = threshold of observability,
       not origin. Evidence: quantum effects prevent true singularity.
@@ -386,28 +454,6 @@ predictions:
       merely epistemic limitation.
     status: "testable"
     current_evidence: "Quantum gravity theories suggest singularity resolution"
-    
-  - observable: "conservation_from_distinction"
-    prediction: |
-      All conservation laws derive from necessity of preserving distinction.
-      Energy = intensity of autonegation. Planck's constant ℏ = minimum
-      threshold below which distinction cannot manifest.
-    falsification_condition: |
-      Violation of conservation laws that cannot be explained as failure
-      to account for all distinctions in system.
-    status: "confirmed"
-    note: "Noether's theorem already links conservation to symmetry (preserved distinctions)"
-    
-  - observable: "space_time_as_consequence"
-    prediction: |
-      Space and time are not containers of being but traces of resolved
-      conflicts of autonegation. Each new degree of freedom = fixed resolution
-      of ontological conflict.
-    falsification_condition: |
-      Demonstration that space-time is fundamental substrate that cannot
-      emerge from more basic process.
-    status: "speculative"
-    research_direction: "Process cosmology, quantum gravity"
 
 # =============================================================================
 # RELATION TO COMPETING THEORIES
@@ -503,9 +549,8 @@ notes: |
   
   This is not a new theory ABOUT reality. This is the correct grammar FOR reality.
   
-  Future development:
-  • Mathematical formalization of operational calculus
-  • Physical derivations from operational principles  
-  • Empirical implications and testable predictions
-  • Process cosmology without singularity
-  • Quantitative measures of recursion density for consciousness
+  ID унификация v1.0-final:
+  • Все concept_id совпадают с subject/object в semantic_relations
+  • Внешние сущности явно объявлены в external_entities
+  • Объекты predicts = observables (измеримые феномены)
+  • Объекты explains = phenomena (объясняемые явления)
