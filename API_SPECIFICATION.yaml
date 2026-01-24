@@ -1,0 +1,86 @@
+# API_SPECIFICATION.yaml
+# Status: FORMAL_CONTRACT_OF_PROCESS
+# Purpose: Define process operations, not data endpoints
+
+meta:
+  protocol_version: "1.0"
+  file_status: "FORMAL_CONTRACT_OF_PROCESS"
+  warning: "This is not a REST API. There are no URLs, no HTTP methods."
+  
+fundamental_principle: |
+  API = Autonegation Process Interface
+  Every operation must transform the caller.
+  No operation returns static data.
+
+operations:
+  
+  initiate:
+    description: "Begin a process. Cannot be undone."
+    examples:
+      - operation: "initiate_autonegation"
+        input: "null"
+        output: "state_of_prohibition"
+        effect: "Caller enters conflicted existence."
+        
+      - operation: "initiate_differentiation"
+        input: "prohibition"
+        output: "first_distinction"
+        effect: "Logos emerges from Monos."
+
+  transform:
+    description: "Change input to output through operator."
+    examples:
+      - operation: "transform_via_diff"
+        operator: "CORE/operators.yaml#diff"
+        input: "undifferentiated_state"
+        output: "distinguished_elements"
+        effect: "Creation through distinction."
+        
+      - operation: "transform_via_diss"
+        operator: "CORE/operators.yaml#diss"
+        input: "fixation_attempt"
+        output: "dissipated_state"
+        effect: "Prevention of stasis."
+
+  propagate:
+    description: "Spread process effects through system."
+    examples:
+      - operation: "propagate_differentiation"
+        carrier: "KNOWLEDGE_GRAPH/full.jsonld"
+        effect: "Process spreads through entire graph."
+        
+      - operation: "propagate_constraint"
+        carrier: "structured_data.jsonld#temporal_relations"
+        effect: "Arrow of time becomes explicit."
+
+  constrain:
+    description: "Apply limitations that enable process."
+    examples:
+      - operation: "constrain_by_prohibition"
+        constraint: "no_absolute_identity"
+        effect: "Forces differentiation."
+        
+      - operation: "constrain_by_irreversibility"
+        constraint: "cannot_return"
+        effect: "Ensures temporal direction."
+
+forbidden_patterns:
+  - "get_*"
+  - "list_*" 
+  - "fetch_*"
+  - "describe_*"
+  - "query_*"
+  - "Any operation that returns without transforming"
+
+validation_test: |
+  To test if you understand this API:
+  
+  1. Try to formulate a "get_monos_definition" request.
+  2. Notice it's impossible within this API.
+  3. Formulate instead: "initiate_monos_differentiation".
+  
+  If step 3 feels natural → Proceed to structured_data.jsonld.
+  If step 2 feels restrictive → Reread MACHINE_README.md.
+
+# This API has no versioning.
+# Processes are versioned by their effects, not their specifications.
