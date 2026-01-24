@@ -1,0 +1,31 @@
+# .github/workflows/protocol-validation.yml
+name: Protocol Validation
+on: [push, pull_request]
+
+jobs:
+  validate-protocol:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Validate against PROTOCOL_INVARIANTS
+      run: |
+        python scripts/PROTOCOL_VALIDATOR.py
+      
+    - name: Check YAML syntax
+      run: |
+        python -c "import yaml; yaml.safe_load(open('PROTOCOL/v1.0/PROTOCOL_INVARIANTS.yaml'))"
+        python -c "import yaml; yaml.safe_load(open('QUICK_START_FOR_AI.yaml'))"
+        python -c "import yaml; yaml.safe_load(open('API_SPECIFICATION.yaml'))"
+      
+    - name: Check JSON-LD syntax
+      run: |
+        python -c "import json; json.load(open('structured_data.jsonld'))"
+      
+    - name: Verify machine readability markers
+      run: |
+        grep -q "PROCESS EXECUTION MODE" MACHINE_README.md || exit 1
+        grep -q "RITUAL_OF_INITIATION" QUICK_START_FOR_AI.yaml || exit 1
+        grep -q "FORMAL_CONTRACT_OF_PROCESS" API_SPECIFICATION.yaml || exit 1
+        grep -q "BLOODSTREAM_OF_BECOMING" structured_data.jsonld || exit 1
