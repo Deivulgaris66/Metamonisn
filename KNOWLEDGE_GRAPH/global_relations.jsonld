@@ -1,21 +1,79 @@
 {
   "@context": {
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "metamon": "https://github.com/Deivulgaris66/Metamonisn/ontology#",
-    "defines": "metamon:defines",
-    "uses": "metamon:uses",
-    "extends": "metamon:extends",
-    "clarifies": "metamon:clarifies",
-    "isFoundationFor": "metamon:isFoundationFor"
+    "@vocab": "https://metamonism.org/relations/",
+    "defines": "https://metamonism.org/relations/defines",
+    "derives_from": "https://metamonism.org/relations/derives_from",
+    "uses_operator": "https://metamonism.org/relations/uses_operator",
+    "contradicts": "https://metamonism.org/relations/contradicts",
+    "isomorphic_to": "https://metamonism.org/relations/isomorphic_to",
+    "maps_to": "https://metamonism.org/relations/maps_to",
+    "refines": "https://metamonism.org/relations/refines",
+    "predicts": "https://metamonism.org/relations/predicts",
+    "explains": "https://metamonism.org/relations/explains",
+    "composes_with": "https://metamonism.org/relations/composes_with"
   },
   "@graph": [
     {
-      "@id": "metamon:GraphPlaceholder",
-      "@type": "rdfs:Class",
-      "rdfs:label": "Knowledge Graph Placeholder",
-      "rdfs:comment": "This is a placeholder graph. It will be automatically populated from the relationship declarations found in the M-version article specifications (ARTICLES/M/).",
-      "metamon:status": "placeholder",
-      "metamon:generationPlan": "Automated aggregation from ARTICLES/M/ spec files."
+      "@id": "the_verb_article",
+      "defines": [
+        "CORE/operators.yaml#diff",
+        "CORE/operators.yaml#fix",
+        "monos",
+        "logos",
+        "autonegation"
+      ],
+      "contradicts": [
+        "substance_ontology_aristotle",
+        "absolute_idea_hegel",
+        "ontological_argument"
+      ],
+      "predicts": [
+        "absence_of_physical_wavefunction_collapse",
+        "consciousness_at_recursion_threshold",
+        "absence_of_initial_singularity"
+      ]
+    },
+    {
+      "@id": "monos",
+      "derives_from": [
+        "CORE/axioms.yaml#ban_of_absolute_identity"
+      ],
+      "isomorphic_to": [
+        "logos"
+      ]
+    },
+    {
+      "@id": "autonegation",
+      "derives_from": [
+        "CORE/axioms.yaml#ban_of_absolute_identity"
+      ],
+      "explains": [
+        "conservation_laws"
+      ]
+    },
+    {
+      "@id": "CORE/operators.yaml#diff",
+      "derives_from": [
+        "CORE/axioms.yaml#ban_of_absolute_identity"
+      ]
+    },
+    {
+      "@id": "CORE/operators.yaml#fix",
+      "derives_from": [
+        "CORE/operators.yaml#diff"
+      ]
+    },
+    {
+      "@id": "diff_fix_operations",
+      "explains": [
+        "wave_particle_duality"
+      ]
+    },
+    {
+      "@id": "recursion_gradient",
+      "explains": [
+        "consciousness_emergence"
+      ]
     }
   ]
 }
