@@ -1,0 +1,338 @@
+# CORE/relations.yaml
+# Version: 1.0-final
+# Status: canonical
+# Role: Ontological relation contract for Metamonism
+# Date: 2026-01-24
+
+meta:
+  name: "Metamonism Core Relations"
+  version: "1.0-final"
+  authority: "CORE"
+  principle: >
+    This file defines the complete and exclusive set of ontologically
+    admissible relations in Metamonism.
+    Any relation not defined here MUST NOT appear in KNOWLEDGE_GRAPH.
+    
+  scope:
+    - ontological_dynamics
+    - epistemological_projection
+    - derivation_of_ontodynamics
+    - falsifiability
+    
+  contract: >
+    CORE/relations.yaml contains exclusively those types of relations
+    without which it is impossible to describe the ontological dynamics
+    of Monos ↔ Logos and derive ONTODYNAMICS from CMI.
+
+# =============================================================================
+# PRIMARY RELATIONS (derived from axiom)
+# =============================================================================
+
+relations:
+
+  derives_from:
+    category: primary
+    semantics: >
+      X derives_from Y means that X cannot be ontologically or logically
+      sustained without Y. The derivation is asymmetric and non-circular.
+    domain:
+      - model
+      - theorem
+      - article_spec
+      - operator
+    range:
+      - axiom
+      - principle
+      - operator
+    properties:
+      symmetric: false
+      transitive: true
+    examples:
+      valid:
+        - "thermodynamics derives_from ban_of_absolute_identity"
+        - "diss derives_from diff"
+      invalid:
+        - "axiom derives_from model"
+        - "principle derives_from theorem"
+
+  isomorphic_to:
+    category: primary
+    semantics: >
+      X isomorphic_to Y means that X and Y share the same internal structure
+      under a structure-preserving mapping, despite differing domains
+      (e.g. Monos vs Logos). This is the mathematical backbone of Metamonism.
+    domain:
+      - model
+      - concept
+      - structure
+    range:
+      - model
+      - concept
+      - structure
+    properties:
+      symmetric: true
+      transitive: true
+    examples:
+      valid:
+        - "quantum_fixation isomorphic_to cognitive_fixation"
+        - "thermodynamic_arrow isomorphic_to epistemic_arrow"
+      invalid:
+        - "axiom isomorphic_to operator"
+
+# =============================================================================
+# OPERATOR RELATIONS (from CMI structure)
+# =============================================================================
+
+  uses_operator:
+    category: operator
+    semantics: >
+      X uses_operator Y means that Y is actively instantiated as a functional
+      mechanism within X.
+    domain:
+      - model
+      - article_spec
+      - application
+    range:
+      - core_operator
+    properties:
+      symmetric: false
+      transitive: false
+    examples:
+      valid:
+        - "thermodynamics uses_operator diss"
+        - "quantum_mechanics uses_operator fix"
+      invalid:
+        - "operator uses_operator model"
+
+  composes_with:
+    category: operator
+    semantics: >
+      X composes_with Y means that X and Y may be sequentially composed
+      without violating CMI constraints.
+    domain:
+      - core_operator
+    range:
+      - core_operator
+    properties:
+      symmetric: false
+      transitive: false
+    validation_source: "CORE/operators.yaml#composition_constraints"
+    note: >
+      Specific composition rules (allowed/forbidden sequences) are defined
+      in CORE/operators.yaml to maintain separation of concerns.
+    examples:
+      valid:
+        - "diff composes_with diss"
+        - "diss composes_with fix"
+      invalid:
+        - "fix composes_with diff"
+
+# =============================================================================
+# EPISTEMOLOGICAL RELATIONS (Monos ↔ Logos boundary)
+# =============================================================================
+
+  defines:
+    category: epistemological
+    semantics: >
+      X defines Y means that X provides the first or canonical formalization
+      of Y within the Metamonism framework.
+    domain:
+      - publication
+      - article_spec
+      - module
+    range:
+      - concept
+      - operator
+      - axiom
+      - principle
+    properties:
+      symmetric: false
+      transitive: false
+    examples:
+      valid:
+        - "THE_VERB defines diff"
+        - "MONOS_LOGOS defines fix"
+      invalid:
+        - "concept defines publication"
+
+  maps_to:
+    category: epistemological
+    semantics: >
+      X maps_to Y denotes an onto-epistemic projection from Monos-level
+      processes to Logos-level representations. This is the operational
+      realization of the fix operator.
+    domain:
+      - monos_process
+      - physical_phenomenon
+    range:
+      - logos_representation
+      - model
+    properties:
+      symmetric: false
+      transitive: false
+    constraint: >
+      This is the ONLY admissible relation bridging Monos and Logos.
+      Any other cross-domain relation is ontologically invalid.
+      This constraint protects the entire system from hidden reductionism.
+    examples:
+      valid:
+        - "quantum_decoherence maps_to diss"
+        - "measurement_event maps_to fix"
+      invalid:
+        - "model maps_to monos_process"
+        - "logos_representation derives_from monos_process"
+
+  refines:
+    category: epistemological
+    semantics: >
+      X refines Y means that X increases resolution or precision of Y
+      without breaking ontological compatibility. This relation enables
+      model evolution without ontological rupture.
+    domain:
+      - model
+      - concept
+      - definition
+    range:
+      - model
+      - concept
+      - definition
+    properties:
+      symmetric: false
+      transitive: true
+    examples:
+      valid:
+        - "non_equilibrium_thermodynamics refines thermodynamics"
+        - "quantum_field_theory refines quantum_mechanics"
+      invalid:
+        - "axiom refines model"
+
+# =============================================================================
+# POLEMICAL RELATIONS (framework incompatibility)
+# =============================================================================
+
+  contradicts:
+    category: polemical
+    semantics: >
+      X contradicts Y denotes ontological incompatibility between frameworks,
+      independent of historical awareness or direction of critique.
+      The relation captures structural impossibility of coexistence,
+      not argumentative stance.
+    domain:
+      - model
+      - article_spec
+    range:
+      - external_theory
+      - principle
+    properties:
+      symmetric: true
+      transitive: false
+    note: >
+      Symmetry reflects structural incompatibility, not historical or
+      rhetorical direction. If A is incompatible with B, then B is
+      incompatible with A, regardless of temporal precedence.
+    examples:
+      valid:
+        - "ban_of_absolute_identity contradicts classical_identity_principle"
+        - "metamonism contradicts substance_metaphysics"
+      invalid:
+        - "model contradicts itself"
+
+# =============================================================================
+# EMPIRICAL RELATIONS (falsifiability)
+# =============================================================================
+
+  predicts:
+    category: empirical
+    semantics: >
+      X predicts Y means that X entails an empirically observable outcome
+      that may falsify X if not observed. This relation ensures scientific
+      falsifiability of Metamonism.
+    domain:
+      - model
+      - article_spec
+    range:
+      - observable
+      - measurement
+    properties:
+      symmetric: false
+      transitive: false
+    examples:
+      valid:
+        - "cosmological_model predicts entropy_growth"
+        - "quantum_mechanics predicts decoherence_timescale"
+      invalid:
+        - "axiom predicts measurement"
+
+  explains:
+    category: empirical
+    semantics: >
+      X explains Y means that X provides a causal or mechanistic account
+      of Y within a model or principle.
+    domain:
+      - model
+      - principle
+    range:
+      - phenomenon
+      - empirical_regularity
+    properties:
+      symmetric: false
+      transitive: false
+    distinction_from_derives_from: >
+      'derives_from' expresses ontological or logical dependence (CORE-level).
+      'explains' expresses causal or mechanistic intelligibility (ONTODYNAMICS-level).
+      X may explain Y without Y deriving from X.
+      
+      Example:
+        - dissipation derives_from ban_of_absolute_identity (ontological)
+        - dissipation explains irreversibility (mechanistic)
+        - irreversibility does NOT derive_from dissipation
+    examples:
+      valid:
+        - "dissipation explains irreversibility"
+        - "quantum_decoherence explains measurement_outcomes"
+      invalid:
+        - "measurement explains axiom"
+
+# =============================================================================
+# VALIDATION RULES
+# =============================================================================
+
+validation:
+  domain_range_check:
+    rule: >
+      Every relation instance MUST have domain and range types
+      defined in CORE/definitions.yaml
+    
+  cross_domain_restriction:
+    rule: >
+      Relations crossing Monos/Logos boundary MUST use 'maps_to'
+      exclusively. Any other cross-domain relation is invalid.
+    
+  composition_validation:
+    rule: >
+      Operator compositions MUST be validated against
+      CORE/operators.yaml#composition_constraints
+    
+  no_self_contradiction:
+    rule: >
+      No entity may have 'contradicts' relation to itself
+    
+  transitivity_enforcement:
+    rule: >
+      For relations marked transitive=true, transitivity MUST be
+      automatically inferred in KNOWLEDGE_GRAPH
+
+# =============================================================================
+# METADATA
+# =============================================================================
+
+changelog:
+  - version: "1.0-final"
+    date: "2026-01-24"
+    changes:
+      - "Moved composition_rules to CORE/operators.yaml"
+      - "Added constraint to maps_to as exclusive Monos/Logos bridge"
+      - "Clarified contradicts semantics (symmetric structural incompatibility)"
+      - "Added explicit distinction between explains and derives_from"
+      - "Rejected instantiates relation (redundant with maps_to)"
+    status: "canonical"
