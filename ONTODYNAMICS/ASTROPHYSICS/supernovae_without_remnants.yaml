@@ -1,0 +1,926 @@
+# ONTODYNAMICS/ASTROPHYSICS/supernovae_without_remnants.yaml
+# Baryon Death via Axis Unlocking: Avalanche Chain Reaction
+# Version: 2.0 (Complete rewrite with correct physics)
+# Status: Canonical (v1.3 framework)
+
+# =============================================================================
+# METADATA
+# =============================================================================
+metadata:
+  title: "Supernovae WITHOUT Remnants: Avalanche Baryon Decay"
+  subtitle: "Chain Reaction Axis Unlocking in Old Cluster Core Galaxies"
+  
+  discipline: "Astrophysics"
+  subdiscipline: "Supernova Physics / Stellar Death / High-Energy Astrophysics"
+  
+  author: "Myshko, Andrii (Metamonist)"
+  date: "2026-01-27"
+  status: "canonical"
+  version: "2.0"
+  revision_note: "Complete rewrite with correct explosion physics"
+  
+  parent_framework: "Metamonism v1.3"
+  foundational_article: "ONTODYNAMICS/COSMOLOGY/eternal_dynamic_reality.yaml"
+  context_article: "ONTODYNAMICS/ASTROPHYSICS/gas_and_galaxy_dynamics_cycle.yaml"
+  counterpart_article: "ONTODYNAMICS/COSMOLOGY/cold_nucleogenesis_in_voids.yaml"
+  
+  parent_article: "FORCES: Recursion and Dissipation"
+  parent_article_doi: "10.5281/zenodo.18079368"
+  
+  position_in_sequence: 4
+  sequence_context: |
+    1. Eternal dynamic reality (foundation)
+    2. Cold nucleogenesis in voids (birth)
+    3. Gas and galaxy dynamics cycle (WHY old cluster cores) ← CRITICAL CONTEXT
+    4. Supernovae without remnants (THIS - death, now self-evident)
+  
+  keywords:
+    - "Avalanche baryon decay"
+    - "Chain reaction axis unlocking"
+    - "High-energy gamma quanta"
+    - "No nuclear fusion"
+    - "Supernovae without afterglow"
+    - "Cluster core death zone"
+    - "Baryon lifecycle endpoint"
+
+# =============================================================================
+# SEMANTIC RELATIONS
+# =============================================================================
+semantic_relations:
+  # ========== CRITICAL CONTEXT DEPENDENCY ==========
+  - subject: "supernovae_without_remnants"
+    relation: "requires_context_from"
+    object: "ONTODYNAMICS/ASTROPHYSICS/gas_and_galaxy_dynamics_cycle.yaml"
+    note: "Explains WHY specifically old cluster core galaxies (not arbitrary)"
+  
+  # ========== SEQUENCE DEPENDENCIES ==========
+  - subject: "supernovae_without_remnants"
+    relation: "derives_from"
+    object: "ONTODYNAMICS/COSMOLOGY/eternal_dynamic_reality.yaml#baryon_death_mechanism"
+    note: "Required by eternal baryon cycle"
+  
+  - subject: "supernovae_without_remnants"
+    relation: "balances"
+    object: "ONTODYNAMICS/COSMOLOGY/cold_nucleogenesis_in_voids.yaml"
+    note: "Death rate balances birth rate"
+  
+  # ========== CORE AXIOM ==========
+  - subject: "avalanche_axis_unlocking"
+    relation: "derives_from"
+    object: "CORE/axioms.yaml#axiom_ban_of_absolute_identity"
+    note: "Corpuscles must dissipate outward at threshold"
+  
+  # ========== CORE PRINCIPLES ==========
+  - subject: "avalanche_axis_unlocking"
+    relation: "instantiates"
+    object: "CORE/ontology.yaml#principles/principle_ontological_dissipation"
+    note: "Dissipation threshold triggers cascade"
+  
+  - subject: "avalanche_axis_unlocking"
+    relation: "instantiates"
+    object: "CORE/ontology.yaml#principles/principle_CMI_structure"
+    note: "Prohibition→Momentum→Force drives transformation"
+  
+  # ========== OPERATORS ==========
+  - subject: "avalanche_axis_unlocking"
+    relation: "instantiates"
+    object: "CORE/operators.yaml#diss"
+    note: "Outward dissipation IS unlocking process"
+  
+  - subject: "avalanche_axis_unlocking"
+    relation: "uses_operator"
+    object: "CORE/operators.yaml#fix"
+    note: "3D closure (fix) breaks down en masse"
+  
+  # ========== PREDICTIONS ==========
+  - subject: "avalanche_axis_unlocking"
+    relation: "predicts"
+    object: "fast_rise_fast_decline_light_curve"
+    note: "Hours rise, days decline (no radioactive tail)"
+  
+  - subject: "avalanche_axis_unlocking"
+    relation: "predicts"
+    object: "prompt_hard_gamma_rays"
+    note: ">GeV gammas at peak (not delayed MeV from decay)"
+  
+  - subject: "avalanche_axis_unlocking"
+    relation: "predicts"
+    object: "no_metal_lines_in_spectrum"
+    note: "No fusion products (nuclei destroyed)"
+  
+  - subject: "avalanche_axis_unlocking"
+    relation: "predicts"
+    object: "no_remnant_ever"
+    note: "100% conversion, nothing left"
+  
+  - subject: "avalanche_axis_unlocking"
+    relation: "predicts"
+    object: "occurs_only_in_cluster_cores"
+    note: "Requires conditions established in gas_and_galaxy_dynamics_cycle.yaml"
+
+# =============================================================================
+# ABSTRACT
+# =============================================================================
+abstract: |
+  Baryon death occurs via AVALANCHE CHAIN REACTION: baryons of similar age
+  reach dissipation threshold simultaneously → first unlocking triggers
+  cascade → explosive mass disintegration.
+  
+  CRITICAL CONTEXT (from gas_and_galaxy_dynamics_cycle.yaml):
+  Old elliptical galaxies in cluster cores are INEVITABLE ENDPOINT of
+  baryon lifecycle:
+  - Voids → fresh H birth
+  - Filament edges → galaxies gain mass
+  - Infall to cores → quenching, low diff environment
+  - Cores → isolated WDs reach threshold → THIS ARTICLE
+  
+  EXPLOSION PHYSICS (DIFFERENT from standard SN):
+  - NOT thermonuclear (no core bounce)
+  - BUT avalanche axis unlocking (chain reaction)
+  - Baryons of same age → threshold reached together
+  - First unlocking → triggers neighbors → cascade
+  
+  PRODUCTS:
+  - High-energy γ-quanta (>GeV, from massive baryon structure)
+  - NOT fusion products (nuclei destroyed, not fused)
+  - NO radioactive decay chain (no ⁵⁶Ni → no afterglow)
+  - NO remnant (100% energy release, nothing left)
+  
+  Observable: Fast transients in cluster core ellipticals, prompt hard
+  gammas, no afterglow, no remnant.
+
+# =============================================================================
+# WHY SPECIFICALLY OLD CLUSTER CORE GALAXIES
+# =============================================================================
+spatial_localization_explained:
+  this_is_NOT_arbitrary:
+    wrong_impression: "Seems like random choice to search in old ellipticals"
+    
+    correct_understanding: |
+      It is INEVITABLE CONSEQUENCE of complete baryon lifecycle
+      (see gas_and_galaxy_dynamics_cycle.yaml for full dynamics)
+  
+  complete_lifecycle_summary:
+    from_article: "gas_and_galaxy_dynamics_cycle.yaml"
+    
+    phase_1_birth:
+      location: "Voids"
+      process: "Cold nucleogenesis"
+      output: "Fresh H (baryon age = 0)"
+      
+    phase_2_migration:
+      location: "Void → filament edge"
+      process: "Dissipation pressure expulsion"
+      output: "H arrives at star formation sites"
+      
+    phase_3_youth:
+      location: "Filament edge galaxies"
+      process: "Gas accretion → active SF → mass gain"
+      output: "Heavy star-forming galaxies (baryons age <1 Gyr)"
+      
+    phase_4_infall:
+      location: "Edge → cluster core"
+      process: "Gravitational infall (heavy galaxies sink)"
+      output: "Galaxies approaching cores (baryons age 1-5 Gyr)"
+      
+    phase_5_quenching:
+      location: "Cluster core"
+      process: "Gas depletion → SF stops"
+      output: "Old red ellipticals, LOW DIFF environment (baryons age 5-10 Gyr)"
+      
+    phase_6_threshold:
+      location: "Cluster core (isolated WDs)"
+      process: "Baryons reach dissipation threshold"
+      age_at_threshold: "~10 Gyr (all baryons similar age)"
+      condition: "Low diff (no external interference)"
+      trigger: "THIS ARTICLE - avalanche unlocking"
+  
+  why_cluster_cores_specifically:
+    requirement_1_baryon_age:
+      needed: "Baryons must be OLD (near threshold)"
+      cores_provide: "~10 Gyr old populations (long quenched)"
+      
+    requirement_2_low_diff:
+      needed: "Low external diff (no interference)"
+      cores_provide: "No SF, no gas, no young stars (minimal diff)"
+      
+    requirement_3_isolation:
+      needed: "Isolated WDs (time to reach threshold)"
+      cores_provide: "No new gas influx, WDs evolve undisturbed"
+      
+    requirement_4_similar_age:
+      needed: "Baryons of same age (for avalanche)"
+      cores_provide: "Single starburst quenched ~same time → coeval populations"
+      
+    all_requirements_met: "ONLY in old ellipticals in cluster cores"
+    
+    therefore: "This is WHERE baryon death MUST occur (not arbitrary choice)"
+
+# =============================================================================
+# EXPLOSION PHYSICS: Avalanche Chain Reaction
+# =============================================================================
+explosion_mechanism:
+  fundamental_difference:
+    standard_SN_Ia:
+      trigger: "Accretion → M_WD reaches Chandrasekhar limit"
+      mechanism: "Thermonuclear runaway (C+O fusion)"
+      energy_source: "Nuclear binding energy"
+      explosion_type: "Deflagration or detonation wave"
+      outcome: "Fusion products (Fe-peak elements) + kinetic energy"
+      
+    dissipative_SN:
+      trigger: "Baryon age → dissipation threshold"
+      mechanism: "AVALANCHE axis unlocking (chain reaction)"
+      energy_source: "Mass-energy conversion E=mc²"
+      explosion_type: "Cascade disintegration"
+      outcome: "High-energy γ-quanta, NO fusion products"
+  
+  # ========== AVALANCHE MECHANISM ==========
+  avalanche_chain_reaction:
+    initial_conditions:
+      baryon_population: "~10^57 baryons in WD (M ~ 1.4 M_solar)"
+      
+      age_distribution: "Narrow (all born in same starburst epoch)"
+      typical_age: "~10 Gyr (quenching time + evolution)"
+      age_spread: "Δt < 100 Myr (< 1% of total age)"
+      
+      dissipation_state: "All baryons near threshold (accumulated outward pressure)"
+      
+    threshold_condition:
+      formula: "P_diss(baryon) > P_bind(axis)"
+      
+      P_diss: "Outward dissipation pressure (accumulated over lifetime)"
+      P_bind: "Fix binding strength of recursion axis"
+      
+      at_threshold: "P_diss ≈ P_bind (critical point)"
+      
+    trigger_event:
+      first_unlocking: "ONE baryon reaches threshold slightly earlier (statistical)"
+      
+      energy_release: "E_1 = m_baryon × c² ≈ 1 GeV (per baryon)"
+      
+      propagation: "Released energy → neighbor baryons"
+      
+    cascade_dynamics:
+      step_1: "First baryon unlocks → releases ~1 GeV"
+      
+      step_2: "Energy absorbed by N_neighbors ~ 10-100 nearby baryons"
+      
+      step_3: "Absorbed energy → pushes neighbors over threshold"
+      
+      step_4: "N_neighbors unlock simultaneously"
+      
+      step_5: "Each releases ~1 GeV → propagates to MORE neighbors"
+      
+      step_6: "Exponential cascade: 1 → 10 → 100 → 10^6 → ..."
+      
+      timescale: "τ_cascade ~ R_WD / c ~ 10 km / 3×10^5 km/s ~ 10^-4 seconds"
+      
+      completion: "Entire WD disintegrates in <1 millisecond"
+      
+    why_avalanche_possible:
+      reason_1_uniform_age: "All baryons reach threshold ~simultaneously"
+      reason_2_proximity: "Dense packing (ρ_WD ~ 10^6 g/cm³)"
+      reason_3_energy_coupling: "Unlocking energy efficiently transferred"
+      reason_4_low_diff: "No external diff to dampen cascade"
+      
+    contrast_with_nuclear_explosion:
+      nuclear_bomb: "Chain reaction of FISSION (neutrons trigger more fission)"
+      axis_unlocking: "Chain reaction of DISINTEGRATION (energy triggers more unlocking)"
+      
+      similarity: "Exponential cascade"
+      difference: "No neutrons, no fission products; pure mass-energy conversion"
+  
+  # ========== EXPLOSION ENERGETICS ==========
+  energy_budget:
+    total_baryons: "N_b ~ 10^57 (for M_WD = 1.4 M_solar)"
+    
+    energy_per_baryon: "E_b = m_p × c² ≈ 938 MeV ≈ 1 GeV"
+    
+    if_100_percent_conversion:
+      total: "E_total = N_b × E_b ~ 10^57 × 1 GeV = 10^57 GeV"
+      in_erg: "~ 10^54 erg"
+      comparison: "Standard SN Ia ~ 10^51 erg"
+      factor: "×1000 MORE energetic IF 100% converts"
+      
+    likely_partial_conversion:
+      reason: "Not all baryons may reach threshold (edge effects, damping)"
+      
+      estimate: "η ~ 0.1-1% conversion efficiency"
+      
+      realistic_energy: "E ~ 10^51 - 10^52 erg (comparable to standard SN Ia)"
+      
+    energy_distribution:
+      gamma_rays: "~80-90% (high-energy γ-quanta)"
+      kinetic: "~10-20% (if any material escapes)"
+      neutrinos: "Minimal (no weak interaction products)"
+  
+  # ========== NO CORE BOUNCE ==========
+  why_NOT_core_bounce:
+    standard_core_collapse_SN:
+      mechanism: "Core collapses → rebounds → shock wave"
+      requires: "Intact core (neutron star or BH formation)"
+      
+    avalanche_disintegration:
+      mechanism: "Core DISINTEGRATES (no rebound)"
+      no_core_left: "Baryons destroyed → no neutron star"
+      no_shock: "Expansion from energy release, not bounce"
+      
+    observational_consequence: |
+      Standard SN: Shock propagates outward → hours to peak
+      Dissipative SN: Instant disintegration → seconds to peak (much faster)
+
+# =============================================================================
+# PRODUCT: High-Energy Gamma-Quanta (NOT regular photons)
+# =============================================================================
+gamma_quanta_properties:
+  structure:
+    from_user: |
+      "При размыкании одной из осей бариона возникает фотоноподобная
+      структура, но с большей энергией, так как две оставшиеся замкнутые
+      оси имеют значительно больший объём энергии нежели фотон,
+      порождённый электроном."
+    
+    baryon_before_unlocking:
+      axes: "Three locked (x, y, z)"
+      structure: "3D closed recursion"
+      mass: "m_p ~ 938 MeV/c²"
+      energy_content: "E = m_p c² ~ 1 GeV (rest mass)"
+      
+    after_one_axis_unlocks:
+      axes: "Two locked (oscillate), one open (propagates)"
+      structure: "Photon-like (E ⊥ B dynamics)"
+      mass: "m = 0 (open axis → no confinement)"
+      
+      BUT_energy_much_higher:
+        reason: "Two remaining locked axes contain BARYON-SCALE energy"
+        
+        electron_photon_comparison:
+          electron_mass: "m_e ~ 0.5 MeV/c²"
+          typical_photon: "E ~ keV - MeV (from atomic transitions)"
+          
+        baryon_gamma_comparison:
+          baryon_mass: "m_p ~ 938 MeV/c² (×1836 heavier than electron)"
+          unlocking_gamma: "E ~ GeV - TeV (>>MeV photons)"
+          
+        energy_ratio: "E_baryon_gamma / E_electron_photon ~ 10³ - 10⁶"
+    
+    classification:
+      NOT_regular_photon: "E ~ eV - MeV (electromagnetic)"
+      BUT_hard_gamma: "E ~ GeV - TeV (high-energy)"
+      
+      possibly_ultra_high_energy: "E > TeV? (if full baryon energy released)"
+  
+  spectrum:
+    expected_if_avalanche:
+      peak_energy: "E_peak ~ 1-10 GeV (baryon rest mass scale)"
+      
+      distribution: "Broad (many-body cascade → thermalization)"
+      
+      shape: "Power-law at high E? (cascade fragmentation)"
+      
+    expected_if_thermal_photons:
+      peak_energy: "E_peak ~ kT << GeV"
+      distribution: "Blackbody (thermal)"
+      
+    distinguisher: "Hard gamma spectrum (>GeV) vs thermal (<<GeV)"
+  
+  timing:
+    standard_SN_Ia_gammas:
+      source: "⁵⁶Co radioactive decay (⁵⁶Ni → ⁵⁶Co → ⁵⁶Fe)"
+      energy: "0.85 MeV, 1.24 MeV (nuclear decay lines)"
+      timing: "DELAYED (peaks ~30-50 days post-explosion)"
+      
+    avalanche_gammas:
+      source: "Direct baryon axis unlocking"
+      energy: ">GeV (mass-energy conversion)"
+      timing: "PROMPT (at explosion, <seconds)"
+      
+    critical_discriminator: |
+      Standard: Delayed MeV gammas (weeks later)
+      Dissipative: Prompt GeV gammas (at peak light)
+      
+      NO overlap → decisive test
+
+# =============================================================================
+# NO NUCLEAR FUSION (nuclei destroyed, not fused)
+# =============================================================================
+no_fusion_products:
+  standard_SN_Ia_nucleosynthesis:
+    process: "C + O → Si, S, Ca, Fe (thermonuclear burning)"
+    
+    burning_stages:
+      - "C-burning (T ~ 10^9 K)"
+      - "O-burning (T ~ 10^9 K)"
+      - "Si-burning (T ~ 10^10 K)"
+      - "NSE (nuclear statistical equilibrium) → Fe-peak"
+      
+    products:
+      primary: "⁵⁶Ni (radioactive, τ ~ 6 days)"
+      decay_chain: "⁵⁶Ni → ⁵⁶Co (τ ~ 77 days) → ⁵⁶Fe (stable)"
+      
+    observable_consequences:
+      spectra: "Strong Si, S, Ca, Fe absorption lines"
+      light_curve: "Powered by radioactive decay (exponential tail)"
+      gamma_rays: "0.85, 1.24 MeV from ⁵⁶Co (delayed)"
+      
+  avalanche_disintegration:
+    process: "Baryons DISINTEGRATE (axes unlock)"
+    
+    what_happens_to_nuclei:
+      before: "C, O nuclei in WD (bound by strong force)"
+      
+      during_cascade: |
+        Baryons in nuclei unlock →
+        Nuclear structure DESTROYED (no intact protons/neutrons) →
+        Nuclei DISINTEGRATE (not fused)
+      
+      after: "High-energy γ-quanta, NO fusion products"
+      
+    NO_nuclear_burning:
+      reason_1: "No time (cascade <millisecond, burning needs seconds)"
+      reason_2: "No intact nuclei (all disintegrated)"
+      reason_3: "No temperature threshold reached (energy → gammas, not heat)"
+      
+    NO_radioactive_products:
+      consequence: "No ⁵⁶Ni → No ⁵⁶Co decay → NO afterglow"
+      
+  observable_consequences:
+    spectra:
+      standard: "Strong Si II 6355Å, Fe II, S II, Ca II lines"
+      dissipative: "WEAK or ABSENT metal lines (smooth continuum)"
+      
+      why_different: |
+        Standard: Fusion creates elements → absorption features
+        Dissipative: No fusion → no new elements → featureless
+      
+    light_curve:
+      standard: "Slow decline (Δm₁₅ ~ 1.1 mag), months-long tail (⁵⁶Co decay)"
+      dissipative: "FAST decline (Δm₁₅ > 2.0 mag), NO tail (no decay)"
+      
+      timescale:
+        standard: "Rise ~15 days, decline ~50-100 days (exponential)"
+        dissipative: "Rise <1 day, decline <10 days (power-law?)"
+      
+    gamma_rays:
+      standard: "Delayed MeV lines (⁵⁶Co at t ~ weeks)"
+      dissipative: "Prompt GeV continuum (t ~ 0)"
+      
+    remnant:
+      standard: "Expanding ejecta (Fe-peak elements + unburned C/O)"
+      dissipative: "NOTHING (all energy → radiation, no material)"
+
+# =============================================================================
+# OBSERVABLE SIGNATURES
+# =============================================================================
+observable_signatures:
+  signature_1_ultrafast_transient:
+    phenomenon: "Optical transient with extreme fast rise + fast decline"
+    
+    light_curve_properties:
+      rise_time: "t_rise < 1 day (compare: standard SN Ia ~15 days)"
+      peak_luminosity: "M_peak ~ -19 (similar to SN Ia)"
+      decline_rate: "Δm₁₅ > 2.5 mag (compare: standard ~1.1 mag)"
+      tail: "ABSENT (compare: standard has months-long tail)"
+      
+    total_duration: "Visible >mag 20 for <20 days (vs >100 days standard)"
+    
+    from_physics:
+      fast_rise: "Avalanche cascade <milliseconds → instant energy release"
+      fast_decline: "No radioactive decay → pure expansion cooling"
+      no_tail: "No ⁵⁶Ni/Co → no power source after explosion"
+      
+    instruments:
+      discovery: "ZTF, ATLAS, LSST (cadence <1 day required)"
+      followup: "Swift (rapid response), ground-based (photometry)"
+      
+    current_analogs:
+      type: "Fast Blue Optical Transients (FBOTs)?"
+      example: "AT2018cow-like (but in cluster core ellipticals)"
+      frequency: "Rare (<1% of transients?)"
+      
+  signature_2_prompt_hard_gammas:
+    phenomenon: "GeV gamma-ray emission DURING optical peak"
+    
+    energy_spectrum:
+      expected: "E > 1 GeV (extending to >100 GeV?)"
+      shape: "Power-law or broken power-law (cascade fragmentation)"
+      peak: "E_peak ~ few GeV (baryon mass scale)"
+      
+    timing:
+      onset: "Simultaneous with optical rise (<hours)"
+      peak: "At optical maximum"
+      duration: "<1 day (prompt, not delayed)"
+      
+    contrast_with_standard:
+      standard_SN_Ia: "MeV gammas from ⁵⁶Co, DELAYED weeks, E < 2 MeV"
+      dissipative: "GeV gammas from unlocking, PROMPT, E > 1 GeV"
+      
+      no_overlap: "Energy range completely different (×1000)"
+      
+    instruments:
+      space: "Fermi-LAT (operating, 0.1-300 GeV)"
+      future: "CTA (Cherenkov Telescope Array, >20 GeV)"
+      
+    challenge: "Low rate × short duration → rare detections"
+    
+    strategy: |
+      1. Optical discovery (ZTF/LSST)
+      2. Immediate Fermi-LAT pointing (<hours)
+      3. Catch prompt GeV emission
+      
+      Expected: ~1 detection per 5 years (if fraction ~10%)
+      
+  signature_3_featureless_spectrum:
+    phenomenon: "Optical spectrum with WEAK or NO metal lines"
+    
+    standard_SN_Ia_spectrum:
+      features:
+        - "Strong Si II 6355Å (P-Cygni, blueshifted)"
+        - "Fe II, S II, Ca II multiplets"
+        - "Evolving line profiles (expansion)"
+        
+      equivalent_widths: "EW(Si II) ~ 100-200 Å"
+      
+    dissipative_spectrum:
+      continuum: "Smooth blackbody or power-law"
+      
+      lines: "WEAK (EW < 20 Å) or ABSENT"
+      
+      why_weak: |
+        Some primordial C/O from WD envelope may survive at surface
+        → weak absorption
+        But NO burning products (no Fe, S from fusion)
+        
+      evolution: "Rapid (spectrum fades in days, not weeks)"
+      
+    measurement:
+      timing: "Within 1-3 days of peak (before fade)"
+      instrument: "Keck, VLT, Gemini (spectroscopy)"
+      resolution: "R ~ 1000-5000"
+      S/N: "≥20 for line detection/absence"
+      
+    classification:
+      if_EW_Si > 50Å: "Normal SN Ia"
+      if_EW_Si < 20Å: "Dissipative candidate"
+      if_NO_Si: "Strong dissipative candidate"
+      
+  signature_4_no_remnant:
+    phenomenon: "Complete absence of remnant (no X-ray, optical, radio)"
+    
+    search_protocol:
+      immediate: "X-ray observation within days (Swift)"
+      expected: "No detection (L_X < 10^38 erg/s)"
+      
+      long_term: "Chandra deep observation 10-50 years later"
+      expected: "STILL no detection (L_X < 10^36 erg/s)"
+      
+    standard_SN_Ia_remnant:
+      X_ray_luminosity: "L_X ~ 10^37-10^39 erg/s (young remnants)"
+      lifetime: "Visible for centuries to millennia"
+      structure: "Expanding shell (ejecta + shocked ISM)"
+      
+    dissipative: "NOTHING (100% energy → radiation)"
+    
+    historical_test:
+      method: "Search past SN Ia sites in cluster core ellipticals"
+      
+      targets: "~50 events from 1900-2000 with precise coordinates"
+      
+      Chandra_observations: "50-100 ks per field"
+      
+      expected_if_dissipative: "30-50% show NO remnant"
+      expected_if_standard: "100% show remnants"
+      
+  signature_5_spatial_localization:
+    phenomenon: "Occurs ONLY in old ellipticals in CLUSTER CORES"
+    
+    from_context: "gas_and_galaxy_dynamics_cycle.yaml explains why"
+    
+    spatial_distribution:
+      cluster_cores: "r < 0.5 Mpc from center (high fraction)"
+      cluster_outskirts: "0.5 < r < 2 Mpc (lower fraction)"
+      field_ellipticals: "Rare or absent (no low-diff environment)"
+      spiral_galaxies: "NEVER (high diff, no threshold reached)"
+      
+    host_galaxy_properties:
+      morphology: "E, E0-E7 (elliptical)"
+      color: "u-r > 2.5 (red)"
+      sSFR: "<10^-12 /yr (quenched)"
+      age: ">5 Gyr since quenching"
+      environment: "Cluster core (σ_v > 500 km/s)"
+      
+    correlation_test:
+      x_axis: "Distance from cluster center (Mpc)"
+      y_axis: "Fraction of SN Ia with fast decline + no remnant"
+      
+      expected_if_correct: "f decreases with increasing r (Spearman ρ < -0.7)"
+      expected_if_random: "f flat (no correlation)"
+
+# =============================================================================
+# OBSERVATIONAL PROTOCOL
+# =============================================================================
+observational_protocol:
+  overview: |
+    Three-pronged approach:
+    1. Real-time discovery (optical surveys + rapid followup)
+    2. Gamma-ray detection (Fermi-LAT triggered observations)
+    3. Historical remnant search (Chandra archival + new observations)
+  
+  # ========== APPROACH 1: Real-Time Discovery ==========
+  approach_1_fast_transient_survey:
+    title: "Identify Ultrafast Optical Transients in Cluster Cores"
+    
+    phase_1a_optical_discovery:
+      surveys: ["ZTF (operating)", "ATLAS (operating)", "LSST (2025+)"]
+      
+      cadence: "<1 day (required to catch fast rise)"
+      
+      target_fields: "Rich clusters (Abell, Virgo, Coma, etc.)"
+      
+      real_time_classification:
+        trigger: "Transient in cluster core elliptical"
+        
+        rapid_photometry: "Every 6-12 hours × 30 days"
+        
+        light_curve_fit:
+          rise_time: "t_rise < 2 days?"
+          decline_rate: "Δm₁₅ > 2.0 mag?"
+          
+        if_YES: "Dissipative candidate → trigger followup"
+        
+    phase_1b_rapid_spectroscopy:
+      timing: "Within 1-3 days of peak"
+      
+      instruments: "Keck, VLT, Gemini (queue/ToO)"
+      
+      goal: "Classify spectrum (metal lines present/absent?)"
+      
+      classification:
+        normal: "Strong Si II, Fe II → standard SN Ia"
+        peculiar: "Weak/absent lines → dissipative candidate"
+        
+    expected_rate:
+      SN_Ia_in_clusters: "~10 per year (all-sky, z<0.1)"
+      cluster_core_fraction: "~30%"
+      dissipative_fraction: "~30-50% (if correct)"
+      
+      total_dissipative: "~1-2 per year (all-sky)"
+      
+      LSST_era: "~10-20 per year (deeper, wider)"
+      
+  # ========== APPROACH 2: Gamma-Ray Observations ==========
+  approach_2_prompt_gammas:
+    title: "Fermi-LAT Triggered Observations"
+    
+    strategy:
+      step_1: "Optical discovery → classification as fast transient"
+      
+      step_2: "Trigger Fermi-LAT pointing (within hours)"
+      
+      step_3: "Observe >1 GeV gammas during optical rise/peak"
+      
+    Fermi_LAT_parameters:
+      energy_range: "0.1 - 300 GeV"
+      sensitivity: "~10^-9 erg/cm²/s (day timescale)"
+      FOV: "2.4 sr (large, but need pointing for faint sources)"
+      
+    expected_if_dissipative:
+      detection: "Prompt GeV emission (t < 1 day)"
+      spectrum: "Power-law, E_peak ~ few GeV"
+      luminosity: "L_gamma ~ 10^43-10^45 erg/s (briefly)"
+      
+    expected_if_standard:
+      detection: "None (or delayed MeV from ⁵⁶Co weeks later)"
+      
+    challenge:
+      low_rate: "~1-2 events per year"
+      short_duration: "Must catch within <1 day"
+      sensitivity: "Faint sources at d ~ 50-100 Mpc"
+      
+    success_rate: "~20-30% (1 detection per 5 years?)"
+    
+    but_decisive: "Even ONE detection with >GeV prompt gammas → confirms mechanism"
+    
+  # ========== APPROACH 3: Historical Remnant Search ==========
+  approach_3_remnant_search:
+    title: "Deep X-ray Non-Detections at Historical SN Sites"
+    
+    from_earlier_version: "Detailed protocol in v1.0 of this article"
+    
+    summary:
+      targets: "50-100 historical SN Ia (1900-2000) in cluster core ellipticals"
+      
+      method: "Chandra ACIS-S deep imaging (50-100 ks per field)"
+      
+      expectation_if_dissipative: "30-50% show NO X-ray source (L_X < 10^36 erg/s)"
+      
+      expectation_if_standard: "100% show remnants (L_X > 10^37 erg/s)"
+      
+    timeline: "2-3 years (Chandra time allocation)"
+    
+    deliverable: "Catalog of detection/non-detection + host properties"
+    
+    correlation_test: "f_no_remnant vs sSFR (inverse, p<0.01?)"
+
+# =============================================================================
+# FALSIFICATION CRITERIA
+# =============================================================================
+falsification_criteria:
+  avalanche_mechanism_FALSIFIED_if:
+    condition_1:
+      test: "ALL fast transients in cluster cores have NORMAL spectra (strong Si, Fe)"
+      threshold: "0/20 events show weak-line spectra"
+      implication: "Fast decline due to other cause (not axis unlocking)"
+      
+    condition_2:
+      test: "NO prompt GeV gammas detected (10+ attempts)"
+      threshold: "0/10 detections with Fermi-LAT"
+      implication: "No high-energy emission → no baryon-scale energy release"
+      
+    condition_3:
+      test: "ALL historical SN Ia sites show remnants"
+      threshold: "100% detection rate in Chandra survey (50+ sites)"
+      implication: "All SN leave remnants → no complete conversion"
+      
+    combined: "If ≥2 conditions met → avalanche mechanism FALSIFIED"
+    
+    metamonism_response:
+      - "Eternal cycle still requires death mechanism"
+      - "Alternative baryon decay pathway needed"
+      - "Core axioms unaffected"
+      
+  avalanche_mechanism_SUPPORTED_if:
+    condition_1: "≥5 fast transients with weak-line spectra in cores"
+    condition_2: "≥1 prompt GeV detection with Fermi-LAT"
+    condition_3: "≥10 historical sites with NO remnant (30%+ fraction)"
+    
+    combined: "If ≥2 conditions met → avalanche mechanism SUPPORTED"
+    
+  avalanche_mechanism_CONFIRMED_if:
+    requirement: "ALL 3 conditions met"
+    
+    implications:
+      - "Baryons ARE destructible (not immutable)"
+      - "Mass-energy conversion 100% possible"
+      - "High-energy γ-quanta from baryon unlocking validated"
+      - "Eternal baryon cycle death phase confirmed"
+      - "Standard SN Ia paradigm incomplete (two pathways exist)"
+
+# =============================================================================
+# COMPARISON TABLE: Standard vs Dissipative
+# =============================================================================
+comparison_table:
+  explosion_trigger:
+    standard: "Mass accretion → M_Ch limit"
+    dissipative: "Baryon age → dissipation threshold"
+    
+  explosion_mechanism:
+    standard: "Thermonuclear runaway (fusion)"
+    dissipative: "Avalanche axis unlocking (disintegration)"
+    
+  energy_source:
+    standard: "Nuclear binding (ΔE_nuclear ~ 10^51 erg)"
+    dissipative: "Mass-energy (E=mc², partial conversion)"
+    
+  products:
+    standard: "Fe-peak elements (⁵⁶Ni → ⁵⁶Co → ⁵⁶Fe)"
+    dissipative: "High-energy γ-quanta (>GeV)"
+    
+  rise_time:
+    standard: "~15 days (diffusion through ejecta)"
+    dissipative: "<1 day (instant energy release)"
+    
+  decline_rate:
+    standard: "Δm₁₅ ~ 1.1 mag (radioactive decay powered)"
+    dissipative: "Δm₁₅ > 2.5 mag (no power source)"
+    
+  afterglow:
+    standard: "YES (⁵⁶Co decay, months)"
+    dissipative: "NO (no radioactive products)"
+    
+  spectrum:
+    standard: "Strong Si, Fe, S, Ca lines"
+    dissipative: "Weak or absent metal lines"
+    
+  gamma_rays:
+    standard: "Delayed MeV (⁵⁶Co, weeks later)"
+    dissipative: "Prompt GeV (unlocking, at peak)"
+    
+  remnant:
+    standard: "YES (expanding shell, centuries)"
+    dissipative: "NO (nothing left)"
+    
+  host_preference:
+    standard: "All galaxy types (universal mechanism)"
+    dissipative: "ONLY old ellipticals in cluster cores"
+    
+  frequency:
+    standard: "~70-90% of SN Ia (majority)"
+    dissipative: "~10-30% in cores (minority, specific conditions)"
+
+# =============================================================================
+# IMPLICATIONS
+# =============================================================================
+implications:
+  if_confirmed:
+    fundamental_physics:
+      - "Baryons NOT immutable (can be destroyed)"
+      - "Proton lifetime FINITE (~10 Gyr in low-diff environments)"
+      - "Mass-energy conversion 100% achievable (not just partial)"
+      - "New form of high-energy astrophysical transient (ultrafast + hard gammas)"
+      
+    baryon_lifecycle:
+      - "Death phase of eternal cycle VALIDATED"
+      - "Birth (voids) ↔ Death (cores) balance confirmed"
+      - "Complete lifecycle: birth → migration → aging → death → cycle"
+      
+    astrophysics:
+      - "SN Ia are NOT uniform (two distinct pathways)"
+      - "Cluster cores are baryon death zones (not passive)"
+      - "Old ellipticals dynamic objects (mass loss via decay)"
+      - "Environment fundamentally affects stellar endpoints"
+      
+    cosmology:
+      - "Eternal dynamic reality framework VALIDATED"
+      - "Baryon count quasi-stable (birth ≈ death rates)"
+      - "No need for primordial baryogenesis (continuous process)"
+      
+    observations:
+      - "New class of transients to discover (ultrafast + GeV)"
+      - "Cluster surveys gain new purpose (death zone monitoring)"
+      - "Historical SN sites reveal hidden physics (missing remnants)"
+      
+  if_falsified:
+    metamonism_requires:
+      - "Alternative death mechanism (not axis unlocking)"
+      - "Could be: proton decay, exotic interactions, different channel"
+      - "Eternal cycle necessity unchanged (death must occur somewhere)"
+      
+    does_NOT_falsify:
+      - "Core axioms (ban_of_absolute_identity)"
+      - "Eternal reality framework"
+      - "Birth mechanism (cold nucleogenesis)"
+      - "Two-generation model"
+
+# =============================================================================
+# NOTES
+# =============================================================================
+notes: |
+  VERSION 2.0 CHANGES (complete rewrite):
+  
+  1. Added CRITICAL CONTEXT from gas_and_galaxy_dynamics_cycle.yaml
+     → Now self-evident WHY old cluster core galaxies
+     
+  2. Corrected EXPLOSION PHYSICS:
+     - NOT thermonuclear (no core bounce)
+     - BUT avalanche chain reaction (baryons same age → cascade)
+     
+  3. Corrected PRODUCTS:
+     - NOT regular photons BUT high-energy γ-quanta (>GeV)
+     - Reason: Two locked axes contain baryon-scale energy
+     
+  4. Corrected AFTERGLOW:
+     - NO nuclear fusion (nuclei destroyed, not fused)
+     - NO ⁵⁶Ni production → NO radioactive decay → NO afterglow
+     
+  5. Added PROMPT HARD GAMMAS as key signature
+     - Distinguishes from standard (delayed MeV)
+     - Validates baryon-scale energy release
+     
+  This is now COMPLETE description of baryon death mechanism
+  with correct physics and clear observational tests.
+  
+  Epistemology:
+  - THAT it happens: DEDUCTIVE (from axioms + cycle necessity)
+  - WHERE it happens: PREDICTIVE (cluster cores, explained by dynamics)
+  - WHAT to see: SPECIFIC (fast transient, GeV gammas, no remnant)
+  - HOW internally: PARTIALLY KNOWN (avalanche) + EMPIRICAL (which axis? dynamics?)
+
+# =============================================================================
+# VERSION INFO
+# =============================================================================
+version_info:
+  version: "2.0"
+  framework_version: "v1.3-canonical"
+  creation_date: "2026-01-27"
+  revision_date: "2026-01-27"
+  status: "canonical"
+  
+  major_changes_from_v1:
+    - "Added context from gas_and_galaxy_dynamics_cycle.yaml (WHY cores)"
+    - "Corrected explosion physics (avalanche, not bounce)"
+    - "Corrected products (GeV γ-quanta, not MeV photons)"
+    - "Corrected afterglow absence (no fusion, nuclei destroyed)"
+    - "Added prompt hard gamma signature"
+    
+  based_on:
+    - "ONTODYNAMICS/COSMOLOGY/eternal_dynamic_reality.yaml (v1.0)"
+    - "ONTODYNAMICS/COSMOLOGY/cold_nucleogenesis_in_voids.yaml (v1.0)"
+    - "ONTODYNAMICS/ASTROPHYSICS/gas_and_galaxy_dynamics_cycle.yaml (v1.0)"
+    - "CORE/axioms.yaml#axiom_ban_of_absolute_identity (v1.3)"
+    - "FORCES Article Sections 7.7.2, user clarifications on mechanism"
+  
+  paired_with:
+    birth: "cold_nucleogenesis_in_voids.yaml"
+    context: "gas_and_galaxy_dynamics_cycle.yaml"
