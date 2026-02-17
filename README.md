@@ -4,7 +4,29 @@
 ![License](https://img.shields.io/badge/license-CC_BY_4.0-green)
 ![Status](https://img.shields.io/badge/status-active_development-yellow)
 
-**Metamonism** is a minimalistic ontological framework designed to provide a unified foundation for all scientific disciplines. It addresses the problem of conceptual fragmentation across physics, biology, cognitive science, and social theory by establishing a common ontological protocol based on a single axiom.
+**Metamonism** is a minimalistic ontological framework designed to provide a unified foundation for all scientific disciplines.
+
+### Canonical Definition
+
+Metamonism is a processual ontology and cross-domain operator framework developed by Andrey Myshko (2025–2026).
+
+Core claim: absolute identity (a state without distinctions) is ontologically impossible. Reality therefore cannot rest in indifference; differentiation is necessary.
+
+**Monos** denotes reality as an ongoing, non-symbolic process.  
+**Logos** denotes fixation regimes (models, classifications, stable forms) used to describe and operate within that process.
+
+Objects do not exist fundamentally. Particles, fields, structures and laws are stable localization modes of dissipation.
+
+CMI (Conflict–Moment–Impulse) is the canonical dynamic schema: prohibition generates momentum; momentum enforces transformation.  
+In the formal layer this is expressed through core operators:
+
+- `diff` — differentiation  
+- `diss` — ontological dissipation  
+- `fix` — epistemic stabilization (Logos only)
+
+Metamonism is not a collection of hypotheses.  
+It is a derivation discipline: all domain models (ONTODYNAMICS) must unfold logically from CORE axioms and produce falsifiable observational signatures.
+
 
 ---
 
