@@ -1,0 +1,39 @@
+metadata:
+  title: Orthogonal Dissipation
+  subtitle: Logical Unfolding of Reality and Physical Modes of a Single Process
+  author: Andrii Myshko
+  year: 2026
+  doi: 10.5281/zenodo.18678280
+  framework: Wayward Metamonism v1.3
+  status: canonical
+
+derives_from:
+  - CORE/axioms.yaml#axiom_ban_of_absolute_identity
+  - CORE/operators.yaml#diss
+  - CORE/operators.yaml#diff
+
+core_claims:
+  - dissipation_is_conflict_redistribution
+  - orthogonality_is_minimal_dissipation_channel
+  - metric_unfolding_precedes_quantitative
+  - mass_is_unfinished_dissipation
+  - forces_are_dissipation_modes
+  - gravity_is_shadow_mode
+  - orbit_is_compensation_zone
+
+dimensional_unfolding:
+  sequence: [0D, 1D, 2D, 3D]
+  global_stage: 4D_centripetal_flow
+  post_metric: quantitative_node_generation
+
+physical_modes:
+  strong: full_flow_compensation
+  electromagnetic: orthogonal_momentum_stabilization
+  weak: forced_reorientation
+  gravity: global_flow_shadow
+  orbit: local_global_balance
+
+supports:
+  - ONTODYNAMICS/COSMOLOGY/cold_nucleogenesis_in_voids.yaml
+  - ONTODYNAMICS/ASTROPHYSICS/gravity_as_screening.yaml
+  - ONTODYNAMICS/PARTICLE_PHYSICS/photon_complete_cosmology.yaml
