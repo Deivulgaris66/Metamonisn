@@ -867,6 +867,13 @@ notes: |
   This is the "smoking gun" test for Metamonism cosmology.
   Either voids have fresh H, or they don't. No ambiguity.
 
+  semantic_relations:
+  - subject: cold_nucleogenesis
+    relation: derives_from
+    object: ONTODYNAMICS/PHYSICS/orthogonal_dissipation.yaml
+    note: Orthogonal dissipation defines baryon emergence topology
+
+
 # =============================================================================
 # VERSION INFO
 # =============================================================================
