@@ -60,7 +60,7 @@ Core results:
 Ontodynamic Interpretation in Wayward Metamonism**
 
 Author: Andrii Myshko  
-Zenodo DOI: [insert DOI]
+Zenodo DOI: https://doi.org/10.5281/zenodo.18764852
 
 Defines inertia as resistance to resynchronization between external (1–3D) and internal (5–7D) projections of a node.
 
