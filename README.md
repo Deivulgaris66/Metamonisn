@@ -293,7 +293,14 @@ Metamonism provides:
 ✅ **Falsifiable extensions** in each discipline  
 
 **Metamonism is not a theory—it's the foundation on which consistent theories can be built.**
+## Structural Update
 
+The stabilized analytical framework has been separated into a dedicated repository:
+
+Wayward Metamonism:
+https://github.com/Deivulgaris66/Wayward-Metamonism
+
+This repository continues as the Metamonism research program.
 ---
 
 <p align="center">
